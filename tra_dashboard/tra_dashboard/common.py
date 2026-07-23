@@ -8,14 +8,18 @@ from tdj_lib directly.
 
 from tdj_lib import (
     NAVY, GOLD, SLATE, CREAM, GRAY, WHITE,
-    EVIDENCE_TIER_HELP, inject_base_style, callout, evidence_tag,
+    GREEN, GREEN_DARK, TINT, TINT_LIGHT, AMBER,
+    EVIDENCE_TIER_HELP, inject_base_style, inject_hero_style, callout, evidence_tag,
     STAGES, stage_header, stage_nav_footer,
     PipelineData, Figure,
+    BenchmarkResult, finscope_adapter,
 )
 
 __all__ = [
     "NAVY", "GOLD", "SLATE", "CREAM", "GRAY", "WHITE",
-    "EVIDENCE_TIER_HELP", "inject_base_style", "callout", "evidence_tag",
+    "GREEN", "GREEN_DARK", "TINT", "TINT_LIGHT", "AMBER",
+    "EVIDENCE_TIER_HELP", "inject_base_style", "inject_hero_style", "callout", "evidence_tag",
     "STAGES", "stage_header", "stage_nav_footer",
     "PipelineData", "Figure",
+    "BenchmarkResult", "finscope_adapter",
 ]

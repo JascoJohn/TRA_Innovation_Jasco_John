@@ -1,4 +1,4 @@
-# The Taxpayer Development Journey — Interactive Dashboard
+﻿# The Taxpayer Development Journey — Interactive Dashboard
 
 A 6-page Streamlit app, one page per lifecycle stage, matching the figures and
 mechanisms in the written submission. Most pages now read **real, live data**
@@ -124,3 +124,6 @@ nothing breaks, it just reads as a fresh, un-migrated checkout. If you want
 live data on the deployed version too, either commit `pipeline/`'s small
 JSON outputs (not the 40MB CSV) into the same repo, or point
 `TDJ_PIPELINE_DIR` at wherever you host them.
+
+## Live Demo
+https://trainnovationjascojohn-mdfppq2bztb4yyxubibhww.streamlit.app

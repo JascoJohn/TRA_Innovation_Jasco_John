@@ -69,6 +69,7 @@ class PipelineData:
         self._econ = _load_json(pipeline_dir, "economic_model.json")
         self._register = _load_json(pipeline_dir, "intervention_register.json")
         self._region_activity = _load_json(pipeline_dir, "finscope_region_activity.json")
+        self._active_benchmark = _load_json(pipeline_dir, "finscope_active_benchmark.json")
 
     @property
     def connected(self) -> bool:
@@ -202,4 +203,52 @@ class PipelineData:
                 for r in rows
             },
             available=True,
+        )
+
+    def active_benchmark_regions(self) -> Figure:
+        """Sorted list of regions present in finscope_active_benchmark.json,
+        for populating Active's region input without the caller reaching
+        into private state."""
+        if not self._active_benchmark:
+            return Figure(
+                value=None, available=False,
+                note="finscope_active_benchmark.json not found in pipeline directory",
+            )
+        regions = sorted({r["region"] for r in self._active_benchmark["rows"]})
+        return Figure(value=regions, available=True)
+
+    def active_benchmark_activities(self) -> Figure:
+        """The fixed list of business-activity categories the benchmark
+        cells are built on (finscope_active_benchmark.json's own
+        strand_categories/rows -- same four IncomeMain categories as
+        finscope_region_activity.json)."""
+        if not self._active_benchmark:
+            return Figure(
+                value=None, available=False,
+                note="finscope_active_benchmark.json not found in pipeline directory",
+            )
+        activities = sorted({r["activity"] for r in self._active_benchmark["rows"]})
+        return Figure(value=activities, available=True)
+
+    def active_benchmark_cell(self, region: str, activity: str) -> Figure:
+        """Raw region x activity benchmark cell (respondent_count,
+        weighted_population, strand_distribution_pct, registered_pct) from
+        finscope_active_benchmark.json -- see
+        pipeline/finscope_active_benchmark_loader.py for exactly how these
+        are computed. This is the only accessor
+        tdj_lib/benchmark_adapters.py's finscope_adapter() reads; every
+        FinScope-specific field name (fasx, D6_4a, IncomeMain, reg_name)
+        lives in the loader script that produced this JSON, not here and
+        not in the adapter."""
+        if not self._active_benchmark:
+            return Figure(
+                value=None, available=False,
+                note="finscope_active_benchmark.json not found in pipeline directory",
+            )
+        for r in self._active_benchmark["rows"]:
+            if r["region"] == region and r["activity"] == activity:
+                return Figure(value=r, available=True)
+        return Figure(
+            value=None, available=False,
+            note=f"no benchmark cell for {activity!r} in {region!r}",
         )

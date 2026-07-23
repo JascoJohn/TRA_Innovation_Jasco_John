@@ -1,0 +1,1748 @@
+{
+  "source": "FinScope Tanzania 2023 (n=9,915, weighted by Household_weight)",
+  "methodology": "For each region x business-activity (IncomeMain) cell: real respondent count and weighted population (same cells as finscope_region_activity.json), the weighted distribution across FinScope's own financial access strand (fasx: Banked / Other formal non-bank / Informal only / Excluded), and the weighted business-registration rate (D6_4a). No income, turnover, or revenue amount is estimated anywhere in this file -- FinScope 2023 has no such variable. Any mapping from these real cell characteristics to a presumptive-tax category is an illustrative interpretive step performed downstream by the dashboard, not a claim made by this loader.",
+  "strand_categories": [
+    "Banked",
+    "Other formal non-bank",
+    "Informal only",
+    "Excluded"
+  ],
+  "rows": [
+    {
+      "region": "Arusha",
+      "activity": "Farmers and fishers",
+      "respondent_count": 68,
+      "weighted_population": 94495.87997262234,
+      "strand_distribution_pct": {
+        "Banked": 14.9,
+        "Other formal non-bank": 68.3,
+        "Informal only": 2.4,
+        "Excluded": 14.4
+      },
+      "registered_pct": 3.8,
+      "registered_respondent_count": 68
+    },
+    {
+      "region": "Arusha",
+      "activity": "Service providers",
+      "respondent_count": 13,
+      "weighted_population": 18784.82788754934,
+      "strand_distribution_pct": {
+        "Banked": 69.7,
+        "Other formal non-bank": 30.3,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 55.7,
+      "registered_respondent_count": 13
+    },
+    {
+      "region": "Arusha",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 3,
+      "weighted_population": 8215.188883152794,
+      "strand_distribution_pct": {
+        "Banked": 0.0,
+        "Other formal non-bank": 82.0,
+        "Informal only": 0.0,
+        "Excluded": 18.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 3
+    },
+    {
+      "region": "Arusha",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 37,
+      "weighted_population": 98834.81163630825,
+      "strand_distribution_pct": {
+        "Banked": 42.3,
+        "Other formal non-bank": 56.6,
+        "Informal only": 0.0,
+        "Excluded": 1.1
+      },
+      "registered_pct": 33.3,
+      "registered_respondent_count": 37
+    },
+    {
+      "region": "Dar es Salaam",
+      "activity": "Farmers and fishers",
+      "respondent_count": 16,
+      "weighted_population": 57187.1942461365,
+      "strand_distribution_pct": {
+        "Banked": 66.6,
+        "Other formal non-bank": 33.4,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 11.4,
+      "registered_respondent_count": 16
+    },
+    {
+      "region": "Dar es Salaam",
+      "activity": "Service providers",
+      "respondent_count": 25,
+      "weighted_population": 86960.4064580355,
+      "strand_distribution_pct": {
+        "Banked": 40.6,
+        "Other formal non-bank": 59.4,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 11.0,
+      "registered_respondent_count": 23
+    },
+    {
+      "region": "Dar es Salaam",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 15,
+      "weighted_population": 28367.547535561087,
+      "strand_distribution_pct": {
+        "Banked": 45.8,
+        "Other formal non-bank": 54.2,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 12.8,
+      "registered_respondent_count": 10
+    },
+    {
+      "region": "Dar es Salaam",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 58,
+      "weighted_population": 176584.75628082344,
+      "strand_distribution_pct": {
+        "Banked": 49.4,
+        "Other formal non-bank": 50.6,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 25.2,
+      "registered_respondent_count": 46
+    },
+    {
+      "region": "Dodoma",
+      "activity": "Farmers and fishers",
+      "respondent_count": 157,
+      "weighted_population": 225029.75912059832,
+      "strand_distribution_pct": {
+        "Banked": 14.1,
+        "Other formal non-bank": 63.8,
+        "Informal only": 7.3,
+        "Excluded": 14.8
+      },
+      "registered_pct": 4.9,
+      "registered_respondent_count": 157
+    },
+    {
+      "region": "Dodoma",
+      "activity": "Service providers",
+      "respondent_count": 12,
+      "weighted_population": 22764.971641287095,
+      "strand_distribution_pct": {
+        "Banked": 8.3,
+        "Other formal non-bank": 79.4,
+        "Informal only": 0.0,
+        "Excluded": 12.4
+      },
+      "registered_pct": 28.1,
+      "registered_respondent_count": 3
+    },
+    {
+      "region": "Dodoma",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 19,
+      "weighted_population": 33612.1454225119,
+      "strand_distribution_pct": {
+        "Banked": 34.7,
+        "Other formal non-bank": 65.3,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 1
+    },
+    {
+      "region": "Dodoma",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 29,
+      "weighted_population": 45835.64865270539,
+      "strand_distribution_pct": {
+        "Banked": 30.4,
+        "Other formal non-bank": 62.2,
+        "Informal only": 0.0,
+        "Excluded": 7.4
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 3
+    },
+    {
+      "region": "Geita",
+      "activity": "Farmers and fishers",
+      "respondent_count": 83,
+      "weighted_population": 92605.1499247197,
+      "strand_distribution_pct": {
+        "Banked": 6.7,
+        "Other formal non-bank": 79.4,
+        "Informal only": 10.9,
+        "Excluded": 3.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 83
+    },
+    {
+      "region": "Geita",
+      "activity": "Service providers",
+      "respondent_count": 10,
+      "weighted_population": 13603.747974910566,
+      "strand_distribution_pct": {
+        "Banked": 3.1,
+        "Other formal non-bank": 29.4,
+        "Informal only": 0.0,
+        "Excluded": 67.5
+      },
+      "registered_pct": 6.3,
+      "registered_respondent_count": 9
+    },
+    {
+      "region": "Geita",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 12,
+      "weighted_population": 14265.939766713216,
+      "strand_distribution_pct": {
+        "Banked": 11.4,
+        "Other formal non-bank": 88.6,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 12
+    },
+    {
+      "region": "Geita",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 30,
+      "weighted_population": 51813.26457093485,
+      "strand_distribution_pct": {
+        "Banked": 61.8,
+        "Other formal non-bank": 34.7,
+        "Informal only": 2.1,
+        "Excluded": 1.5
+      },
+      "registered_pct": 34.1,
+      "registered_respondent_count": 28
+    },
+    {
+      "region": "Iringa",
+      "activity": "Farmers and fishers",
+      "respondent_count": 86,
+      "weighted_population": 90136.99949397835,
+      "strand_distribution_pct": {
+        "Banked": 15.5,
+        "Other formal non-bank": 66.3,
+        "Informal only": 4.0,
+        "Excluded": 14.2
+      },
+      "registered_pct": 4.1,
+      "registered_respondent_count": 86
+    },
+    {
+      "region": "Iringa",
+      "activity": "Service providers",
+      "respondent_count": 4,
+      "weighted_population": 5041.333373225178,
+      "strand_distribution_pct": {
+        "Banked": 63.9,
+        "Other formal non-bank": 36.1,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 63.9,
+      "registered_respondent_count": 4
+    },
+    {
+      "region": "Iringa",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 4,
+      "weighted_population": 9623.33080834052,
+      "strand_distribution_pct": {
+        "Banked": 71.4,
+        "Other formal non-bank": 28.6,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 39.7,
+      "registered_respondent_count": 3
+    },
+    {
+      "region": "Iringa",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 12,
+      "weighted_population": 19661.31946676388,
+      "strand_distribution_pct": {
+        "Banked": 21.7,
+        "Other formal non-bank": 50.2,
+        "Informal only": 18.4,
+        "Excluded": 9.6
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 7
+    },
+    {
+      "region": "Kagera",
+      "activity": "Farmers and fishers",
+      "respondent_count": 161,
+      "weighted_population": 339119.40635976405,
+      "strand_distribution_pct": {
+        "Banked": 8.7,
+        "Other formal non-bank": 57.7,
+        "Informal only": 8.9,
+        "Excluded": 24.7
+      },
+      "registered_pct": 4.1,
+      "registered_respondent_count": 161
+    },
+    {
+      "region": "Kagera",
+      "activity": "Service providers",
+      "respondent_count": 16,
+      "weighted_population": 27728.12773517901,
+      "strand_distribution_pct": {
+        "Banked": 16.6,
+        "Other formal non-bank": 69.3,
+        "Informal only": 14.1,
+        "Excluded": 0.0
+      },
+      "registered_pct": 7.8,
+      "registered_respondent_count": 10
+    },
+    {
+      "region": "Kagera",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 7,
+      "weighted_population": 7454.644681714048,
+      "strand_distribution_pct": {
+        "Banked": 11.3,
+        "Other formal non-bank": 68.6,
+        "Informal only": 20.2,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 3
+    },
+    {
+      "region": "Kagera",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 9,
+      "weighted_population": 20713.876897115908,
+      "strand_distribution_pct": {
+        "Banked": 46.0,
+        "Other formal non-bank": 37.9,
+        "Informal only": 0.0,
+        "Excluded": 16.2
+      },
+      "registered_pct": 30.1,
+      "registered_respondent_count": 7
+    },
+    {
+      "region": "Kaskazini Pemba",
+      "activity": "Farmers and fishers",
+      "respondent_count": 29,
+      "weighted_population": 6970.8471626081755,
+      "strand_distribution_pct": {
+        "Banked": 28.8,
+        "Other formal non-bank": 55.0,
+        "Informal only": 5.0,
+        "Excluded": 11.1
+      },
+      "registered_pct": 23.3,
+      "registered_respondent_count": 29
+    },
+    {
+      "region": "Kaskazini Pemba",
+      "activity": "Service providers",
+      "respondent_count": 8,
+      "weighted_population": 2250.534133187533,
+      "strand_distribution_pct": {
+        "Banked": 0.0,
+        "Other formal non-bank": 88.4,
+        "Informal only": 0.0,
+        "Excluded": 11.6
+      },
+      "registered_pct": 45.7,
+      "registered_respondent_count": 8
+    },
+    {
+      "region": "Kaskazini Pemba",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 4,
+      "weighted_population": 1112.884631931357,
+      "strand_distribution_pct": {
+        "Banked": 20.1,
+        "Other formal non-bank": 79.9,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 4
+    },
+    {
+      "region": "Kaskazini Pemba",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 11,
+      "weighted_population": 2857.9936430855264,
+      "strand_distribution_pct": {
+        "Banked": 34.0,
+        "Other formal non-bank": 43.7,
+        "Informal only": 0.0,
+        "Excluded": 22.4
+      },
+      "registered_pct": 16.5,
+      "registered_respondent_count": 11
+    },
+    {
+      "region": "Kaskazini Unguja",
+      "activity": "Farmers and fishers",
+      "respondent_count": 27,
+      "weighted_population": 8163.213931578915,
+      "strand_distribution_pct": {
+        "Banked": 13.9,
+        "Other formal non-bank": 78.4,
+        "Informal only": 4.2,
+        "Excluded": 3.5
+      },
+      "registered_pct": 8.5,
+      "registered_respondent_count": 27
+    },
+    {
+      "region": "Kaskazini Unguja",
+      "activity": "Service providers",
+      "respondent_count": 9,
+      "weighted_population": 2952.074437303097,
+      "strand_distribution_pct": {
+        "Banked": 0.0,
+        "Other formal non-bank": 91.6,
+        "Informal only": 8.4,
+        "Excluded": 0.0
+      },
+      "registered_pct": 23.4,
+      "registered_respondent_count": 9
+    },
+    {
+      "region": "Kaskazini Unguja",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 2,
+      "weighted_population": 611.003689595896,
+      "strand_distribution_pct": {
+        "Banked": 23.5,
+        "Other formal non-bank": 0.0,
+        "Informal only": 76.5,
+        "Excluded": 0.0
+      },
+      "registered_pct": 23.5,
+      "registered_respondent_count": 2
+    },
+    {
+      "region": "Kaskazini Unguja",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 17,
+      "weighted_population": 4819.68907905379,
+      "strand_distribution_pct": {
+        "Banked": 29.2,
+        "Other formal non-bank": 63.3,
+        "Informal only": 0.0,
+        "Excluded": 7.5
+      },
+      "registered_pct": 22.8,
+      "registered_respondent_count": 17
+    },
+    {
+      "region": "Katavi",
+      "activity": "Farmers and fishers",
+      "respondent_count": 97,
+      "weighted_population": 100553.6192792537,
+      "strand_distribution_pct": {
+        "Banked": 23.1,
+        "Other formal non-bank": 60.5,
+        "Informal only": 5.4,
+        "Excluded": 11.0
+      },
+      "registered_pct": 2.5,
+      "registered_respondent_count": 97
+    },
+    {
+      "region": "Katavi",
+      "activity": "Service providers",
+      "respondent_count": 3,
+      "weighted_population": 2354.31692164832,
+      "strand_distribution_pct": {
+        "Banked": 80.7,
+        "Other formal non-bank": 19.3,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": null,
+      "registered_respondent_count": 0
+    },
+    {
+      "region": "Katavi",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 9,
+      "weighted_population": 7340.474893050359,
+      "strand_distribution_pct": {
+        "Banked": 19.7,
+        "Other formal non-bank": 42.7,
+        "Informal only": 0.0,
+        "Excluded": 37.6
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 5
+    },
+    {
+      "region": "Katavi",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 7,
+      "weighted_population": 6255.96285186965,
+      "strand_distribution_pct": {
+        "Banked": 12.0,
+        "Other formal non-bank": 88.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 41.3,
+      "registered_respondent_count": 2
+    },
+    {
+      "region": "Kigoma",
+      "activity": "Farmers and fishers",
+      "respondent_count": 132,
+      "weighted_population": 135973.1749382827,
+      "strand_distribution_pct": {
+        "Banked": 17.2,
+        "Other formal non-bank": 53.1,
+        "Informal only": 3.3,
+        "Excluded": 26.4
+      },
+      "registered_pct": 4.9,
+      "registered_respondent_count": 132
+    },
+    {
+      "region": "Kigoma",
+      "activity": "Service providers",
+      "respondent_count": 13,
+      "weighted_population": 17410.412793716856,
+      "strand_distribution_pct": {
+        "Banked": 30.6,
+        "Other formal non-bank": 68.8,
+        "Informal only": 0.0,
+        "Excluded": 0.5
+      },
+      "registered_pct": 28.8,
+      "registered_respondent_count": 9
+    },
+    {
+      "region": "Kigoma",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 16,
+      "weighted_population": 16212.618747625713,
+      "strand_distribution_pct": {
+        "Banked": 1.6,
+        "Other formal non-bank": 87.3,
+        "Informal only": 0.0,
+        "Excluded": 11.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 12
+    },
+    {
+      "region": "Kigoma",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 13,
+      "weighted_population": 17475.20062178598,
+      "strand_distribution_pct": {
+        "Banked": 20.0,
+        "Other formal non-bank": 60.2,
+        "Informal only": 10.0,
+        "Excluded": 9.8
+      },
+      "registered_pct": 40.1,
+      "registered_respondent_count": 7
+    },
+    {
+      "region": "Kilimanjaro",
+      "activity": "Farmers and fishers",
+      "respondent_count": 87,
+      "weighted_population": 171630.19831473433,
+      "strand_distribution_pct": {
+        "Banked": 18.5,
+        "Other formal non-bank": 74.2,
+        "Informal only": 0.5,
+        "Excluded": 6.8
+      },
+      "registered_pct": 4.1,
+      "registered_respondent_count": 87
+    },
+    {
+      "region": "Kilimanjaro",
+      "activity": "Service providers",
+      "respondent_count": 9,
+      "weighted_population": 18922.291797042733,
+      "strand_distribution_pct": {
+        "Banked": 63.5,
+        "Other formal non-bank": 29.5,
+        "Informal only": 0.0,
+        "Excluded": 7.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 6
+    },
+    {
+      "region": "Kilimanjaro",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 6,
+      "weighted_population": 7041.85701398945,
+      "strand_distribution_pct": {
+        "Banked": 0.0,
+        "Other formal non-bank": 100.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 6
+    },
+    {
+      "region": "Kilimanjaro",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 24,
+      "weighted_population": 38990.62669513911,
+      "strand_distribution_pct": {
+        "Banked": 25.3,
+        "Other formal non-bank": 50.1,
+        "Informal only": 0.0,
+        "Excluded": 24.5
+      },
+      "registered_pct": 46.7,
+      "registered_respondent_count": 22
+    },
+    {
+      "region": "Kusini Pemba",
+      "activity": "Farmers and fishers",
+      "respondent_count": 12,
+      "weighted_population": 3158.4251800566044,
+      "strand_distribution_pct": {
+        "Banked": 40.7,
+        "Other formal non-bank": 50.6,
+        "Informal only": 0.0,
+        "Excluded": 8.7
+      },
+      "registered_pct": 10.6,
+      "registered_respondent_count": 12
+    },
+    {
+      "region": "Kusini Pemba",
+      "activity": "Service providers",
+      "respondent_count": 6,
+      "weighted_population": 1264.4474034826621,
+      "strand_distribution_pct": {
+        "Banked": 29.4,
+        "Other formal non-bank": 70.6,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 79.2,
+      "registered_respondent_count": 6
+    },
+    {
+      "region": "Kusini Pemba",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 1,
+      "weighted_population": 131.783677034388,
+      "strand_distribution_pct": {
+        "Banked": 100.0,
+        "Other formal non-bank": 0.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 1
+    },
+    {
+      "region": "Kusini Pemba",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 21,
+      "weighted_population": 4724.258026689802,
+      "strand_distribution_pct": {
+        "Banked": 31.9,
+        "Other formal non-bank": 58.5,
+        "Informal only": 5.3,
+        "Excluded": 4.3
+      },
+      "registered_pct": 31.0,
+      "registered_respondent_count": 21
+    },
+    {
+      "region": "Kusini Unguja",
+      "activity": "Farmers and fishers",
+      "respondent_count": 34,
+      "weighted_population": 7415.126678426289,
+      "strand_distribution_pct": {
+        "Banked": 14.7,
+        "Other formal non-bank": 78.6,
+        "Informal only": 6.7,
+        "Excluded": 0.0
+      },
+      "registered_pct": 12.9,
+      "registered_respondent_count": 34
+    },
+    {
+      "region": "Kusini Unguja",
+      "activity": "Service providers",
+      "respondent_count": 9,
+      "weighted_population": 2702.6441303019965,
+      "strand_distribution_pct": {
+        "Banked": 15.6,
+        "Other formal non-bank": 50.3,
+        "Informal only": 23.9,
+        "Excluded": 10.3
+      },
+      "registered_pct": 50.0,
+      "registered_respondent_count": 9
+    },
+    {
+      "region": "Kusini Unguja",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 4,
+      "weighted_population": 824.7347598877946,
+      "strand_distribution_pct": {
+        "Banked": 55.1,
+        "Other formal non-bank": 28.2,
+        "Informal only": 16.8,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 4
+    },
+    {
+      "region": "Kusini Unguja",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 14,
+      "weighted_population": 3955.151987052097,
+      "strand_distribution_pct": {
+        "Banked": 41.5,
+        "Other formal non-bank": 54.8,
+        "Informal only": 0.0,
+        "Excluded": 3.6
+      },
+      "registered_pct": 23.0,
+      "registered_respondent_count": 14
+    },
+    {
+      "region": "Lindi",
+      "activity": "Farmers and fishers",
+      "respondent_count": 105,
+      "weighted_population": 162275.89852068393,
+      "strand_distribution_pct": {
+        "Banked": 40.1,
+        "Other formal non-bank": 39.7,
+        "Informal only": 12.2,
+        "Excluded": 8.0
+      },
+      "registered_pct": 2.2,
+      "registered_respondent_count": 105
+    },
+    {
+      "region": "Lindi",
+      "activity": "Service providers",
+      "respondent_count": 17,
+      "weighted_population": 22463.337945783922,
+      "strand_distribution_pct": {
+        "Banked": 24.6,
+        "Other formal non-bank": 75.4,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 6.6,
+      "registered_respondent_count": 17
+    },
+    {
+      "region": "Lindi",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 1,
+      "weighted_population": 2230.74844854717,
+      "strand_distribution_pct": {
+        "Banked": 0.0,
+        "Other formal non-bank": 100.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 100.0,
+      "registered_respondent_count": 1
+    },
+    {
+      "region": "Lindi",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 7,
+      "weighted_population": 11898.125583125988,
+      "strand_distribution_pct": {
+        "Banked": 37.9,
+        "Other formal non-bank": 62.1,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 10.3,
+      "registered_respondent_count": 7
+    },
+    {
+      "region": "Manyara",
+      "activity": "Farmers and fishers",
+      "respondent_count": 139,
+      "weighted_population": 159158.7521123325,
+      "strand_distribution_pct": {
+        "Banked": 18.1,
+        "Other formal non-bank": 58.8,
+        "Informal only": 4.3,
+        "Excluded": 18.8
+      },
+      "registered_pct": 3.8,
+      "registered_respondent_count": 139
+    },
+    {
+      "region": "Manyara",
+      "activity": "Service providers",
+      "respondent_count": 5,
+      "weighted_population": 5580.8483793492305,
+      "strand_distribution_pct": {
+        "Banked": 33.5,
+        "Other formal non-bank": 66.5,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 33.5,
+      "registered_respondent_count": 5
+    },
+    {
+      "region": "Manyara",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 2,
+      "weighted_population": 1473.384547071067,
+      "strand_distribution_pct": {
+        "Banked": 71.6,
+        "Other formal non-bank": 28.4,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 2
+    },
+    {
+      "region": "Manyara",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 7,
+      "weighted_population": 9140.728745458679,
+      "strand_distribution_pct": {
+        "Banked": 50.7,
+        "Other formal non-bank": 49.3,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 49.5,
+      "registered_respondent_count": 6
+    },
+    {
+      "region": "Mara",
+      "activity": "Farmers and fishers",
+      "respondent_count": 126,
+      "weighted_population": 172339.77787464132,
+      "strand_distribution_pct": {
+        "Banked": 23.6,
+        "Other formal non-bank": 65.7,
+        "Informal only": 1.7,
+        "Excluded": 9.0
+      },
+      "registered_pct": 10.7,
+      "registered_respondent_count": 126
+    },
+    {
+      "region": "Mara",
+      "activity": "Service providers",
+      "respondent_count": 15,
+      "weighted_population": 26136.981217435878,
+      "strand_distribution_pct": {
+        "Banked": 36.8,
+        "Other formal non-bank": 52.8,
+        "Informal only": 0.0,
+        "Excluded": 10.4
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 11
+    },
+    {
+      "region": "Mara",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 12,
+      "weighted_population": 15988.552236014211,
+      "strand_distribution_pct": {
+        "Banked": 33.0,
+        "Other formal non-bank": 64.5,
+        "Informal only": 2.5,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 8
+    },
+    {
+      "region": "Mara",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 37,
+      "weighted_population": 63387.2102189359,
+      "strand_distribution_pct": {
+        "Banked": 31.5,
+        "Other formal non-bank": 52.2,
+        "Informal only": 1.7,
+        "Excluded": 14.6
+      },
+      "registered_pct": 19.6,
+      "registered_respondent_count": 33
+    },
+    {
+      "region": "Mbeya",
+      "activity": "Farmers and fishers",
+      "respondent_count": 109,
+      "weighted_population": 189803.55730285752,
+      "strand_distribution_pct": {
+        "Banked": 29.6,
+        "Other formal non-bank": 56.0,
+        "Informal only": 6.5,
+        "Excluded": 7.9
+      },
+      "registered_pct": 7.7,
+      "registered_respondent_count": 109
+    },
+    {
+      "region": "Mbeya",
+      "activity": "Service providers",
+      "respondent_count": 8,
+      "weighted_population": 35849.92662061088,
+      "strand_distribution_pct": {
+        "Banked": 17.0,
+        "Other formal non-bank": 83.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 4.2,
+      "registered_respondent_count": 8
+    },
+    {
+      "region": "Mbeya",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 2,
+      "weighted_population": 1594.053593199388,
+      "strand_distribution_pct": {
+        "Banked": 12.3,
+        "Other formal non-bank": 87.7,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 1
+    },
+    {
+      "region": "Mbeya",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 21,
+      "weighted_population": 46545.294525175676,
+      "strand_distribution_pct": {
+        "Banked": 22.8,
+        "Other formal non-bank": 74.3,
+        "Informal only": 0.0,
+        "Excluded": 2.8
+      },
+      "registered_pct": 40.1,
+      "registered_respondent_count": 19
+    },
+    {
+      "region": "Mjini Magharibi",
+      "activity": "Farmers and fishers",
+      "respondent_count": 12,
+      "weighted_population": 7049.132337004138,
+      "strand_distribution_pct": {
+        "Banked": 13.6,
+        "Other formal non-bank": 75.4,
+        "Informal only": 11.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 23.1,
+      "registered_respondent_count": 12
+    },
+    {
+      "region": "Mjini Magharibi",
+      "activity": "Service providers",
+      "respondent_count": 21,
+      "weighted_population": 13843.667562751907,
+      "strand_distribution_pct": {
+        "Banked": 32.2,
+        "Other formal non-bank": 58.4,
+        "Informal only": 6.2,
+        "Excluded": 3.3
+      },
+      "registered_pct": 21.2,
+      "registered_respondent_count": 6
+    },
+    {
+      "region": "Mjini Magharibi",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 6,
+      "weighted_population": 3519.558995228487,
+      "strand_distribution_pct": {
+        "Banked": 0.0,
+        "Other formal non-bank": 100.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 2
+    },
+    {
+      "region": "Mjini Magharibi",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 36,
+      "weighted_population": 23520.02846269096,
+      "strand_distribution_pct": {
+        "Banked": 42.7,
+        "Other formal non-bank": 51.5,
+        "Informal only": 2.0,
+        "Excluded": 3.8
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 5
+    },
+    {
+      "region": "Morogoro",
+      "activity": "Farmers and fishers",
+      "respondent_count": 205,
+      "weighted_population": 309411.07917116955,
+      "strand_distribution_pct": {
+        "Banked": 11.5,
+        "Other formal non-bank": 59.6,
+        "Informal only": 10.2,
+        "Excluded": 18.7
+      },
+      "registered_pct": 0.8,
+      "registered_respondent_count": 205
+    },
+    {
+      "region": "Morogoro",
+      "activity": "Service providers",
+      "respondent_count": 27,
+      "weighted_population": 50412.71742588923,
+      "strand_distribution_pct": {
+        "Banked": 12.4,
+        "Other formal non-bank": 57.9,
+        "Informal only": 11.1,
+        "Excluded": 18.6
+      },
+      "registered_pct": 7.5,
+      "registered_respondent_count": 20
+    },
+    {
+      "region": "Morogoro",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 14,
+      "weighted_population": 24397.271765642447,
+      "strand_distribution_pct": {
+        "Banked": 4.8,
+        "Other formal non-bank": 79.6,
+        "Informal only": 13.2,
+        "Excluded": 2.4
+      },
+      "registered_pct": 10.3,
+      "registered_respondent_count": 10
+    },
+    {
+      "region": "Morogoro",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 16,
+      "weighted_population": 28578.352933092327,
+      "strand_distribution_pct": {
+        "Banked": 43.3,
+        "Other formal non-bank": 44.7,
+        "Informal only": 0.0,
+        "Excluded": 12.0
+      },
+      "registered_pct": 25.3,
+      "registered_respondent_count": 9
+    },
+    {
+      "region": "Mtwara",
+      "activity": "Farmers and fishers",
+      "respondent_count": 172,
+      "weighted_population": 238090.0804495762,
+      "strand_distribution_pct": {
+        "Banked": 40.8,
+        "Other formal non-bank": 42.2,
+        "Informal only": 6.3,
+        "Excluded": 10.8
+      },
+      "registered_pct": 8.6,
+      "registered_respondent_count": 172
+    },
+    {
+      "region": "Mtwara",
+      "activity": "Service providers",
+      "respondent_count": 17,
+      "weighted_population": 22613.34236284044,
+      "strand_distribution_pct": {
+        "Banked": 24.2,
+        "Other formal non-bank": 75.8,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 10
+    },
+    {
+      "region": "Mtwara",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 5,
+      "weighted_population": 6820.018714926312,
+      "strand_distribution_pct": {
+        "Banked": 14.0,
+        "Other formal non-bank": 86.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 3
+    },
+    {
+      "region": "Mtwara",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 29,
+      "weighted_population": 29829.792220796764,
+      "strand_distribution_pct": {
+        "Banked": 32.6,
+        "Other formal non-bank": 64.5,
+        "Informal only": 2.9,
+        "Excluded": 0.0
+      },
+      "registered_pct": 4.7,
+      "registered_respondent_count": 17
+    },
+    {
+      "region": "Mwanza",
+      "activity": "Farmers and fishers",
+      "respondent_count": 160,
+      "weighted_population": 206076.40848873206,
+      "strand_distribution_pct": {
+        "Banked": 10.1,
+        "Other formal non-bank": 69.4,
+        "Informal only": 5.4,
+        "Excluded": 15.2
+      },
+      "registered_pct": 2.6,
+      "registered_respondent_count": 160
+    },
+    {
+      "region": "Mwanza",
+      "activity": "Service providers",
+      "respondent_count": 37,
+      "weighted_population": 58359.74336605364,
+      "strand_distribution_pct": {
+        "Banked": 34.2,
+        "Other formal non-bank": 65.8,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 10.6,
+      "registered_respondent_count": 33
+    },
+    {
+      "region": "Mwanza",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 11,
+      "weighted_population": 13928.721951976178,
+      "strand_distribution_pct": {
+        "Banked": 22.6,
+        "Other formal non-bank": 77.4,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 27.4,
+      "registered_respondent_count": 9
+    },
+    {
+      "region": "Mwanza",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 53,
+      "weighted_population": 73085.20740298643,
+      "strand_distribution_pct": {
+        "Banked": 39.5,
+        "Other formal non-bank": 59.9,
+        "Informal only": 0.0,
+        "Excluded": 0.6
+      },
+      "registered_pct": 20.2,
+      "registered_respondent_count": 51
+    },
+    {
+      "region": "Njombe",
+      "activity": "Farmers and fishers",
+      "respondent_count": 102,
+      "weighted_population": 121827.95546834567,
+      "strand_distribution_pct": {
+        "Banked": 10.2,
+        "Other formal non-bank": 67.3,
+        "Informal only": 7.8,
+        "Excluded": 14.7
+      },
+      "registered_pct": 1.3,
+      "registered_respondent_count": 102
+    },
+    {
+      "region": "Njombe",
+      "activity": "Service providers",
+      "respondent_count": 11,
+      "weighted_population": 11992.268998686868,
+      "strand_distribution_pct": {
+        "Banked": 35.0,
+        "Other formal non-bank": 65.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 30.1,
+      "registered_respondent_count": 11
+    },
+    {
+      "region": "Njombe",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 4,
+      "weighted_population": 5256.856055873526,
+      "strand_distribution_pct": {
+        "Banked": 50.7,
+        "Other formal non-bank": 29.9,
+        "Informal only": 19.4,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 4
+    },
+    {
+      "region": "Njombe",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 11,
+      "weighted_population": 11600.617550583702,
+      "strand_distribution_pct": {
+        "Banked": 49.4,
+        "Other formal non-bank": 50.6,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 55.5,
+      "registered_respondent_count": 11
+    },
+    {
+      "region": "Pwani",
+      "activity": "Farmers and fishers",
+      "respondent_count": 63,
+      "weighted_population": 72128.51626867426,
+      "strand_distribution_pct": {
+        "Banked": 25.5,
+        "Other formal non-bank": 60.1,
+        "Informal only": 6.6,
+        "Excluded": 7.8
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 63
+    },
+    {
+      "region": "Pwani",
+      "activity": "Service providers",
+      "respondent_count": 21,
+      "weighted_population": 31280.559868421904,
+      "strand_distribution_pct": {
+        "Banked": 49.0,
+        "Other formal non-bank": 51.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 11.6,
+      "registered_respondent_count": 13
+    },
+    {
+      "region": "Pwani",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 7,
+      "weighted_population": 25764.910868302133,
+      "strand_distribution_pct": {
+        "Banked": 3.4,
+        "Other formal non-bank": 96.6,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 3.8,
+      "registered_respondent_count": 6
+    },
+    {
+      "region": "Pwani",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 21,
+      "weighted_population": 73678.21187640767,
+      "strand_distribution_pct": {
+        "Banked": 20.8,
+        "Other formal non-bank": 77.5,
+        "Informal only": 0.0,
+        "Excluded": 1.7
+      },
+      "registered_pct": 18.5,
+      "registered_respondent_count": 18
+    },
+    {
+      "region": "Rukwa",
+      "activity": "Farmers and fishers",
+      "respondent_count": 110,
+      "weighted_population": 145031.35881273693,
+      "strand_distribution_pct": {
+        "Banked": 13.8,
+        "Other formal non-bank": 50.3,
+        "Informal only": 20.5,
+        "Excluded": 15.4
+      },
+      "registered_pct": 0.7,
+      "registered_respondent_count": 110
+    },
+    {
+      "region": "Rukwa",
+      "activity": "Service providers",
+      "respondent_count": 5,
+      "weighted_population": 6179.74815580103,
+      "strand_distribution_pct": {
+        "Banked": 0.0,
+        "Other formal non-bank": 100.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 17.1,
+      "registered_respondent_count": 5
+    },
+    {
+      "region": "Rukwa",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 6,
+      "weighted_population": 8309.465129912529,
+      "strand_distribution_pct": {
+        "Banked": 20.7,
+        "Other formal non-bank": 64.7,
+        "Informal only": 14.6,
+        "Excluded": 0.0
+      },
+      "registered_pct": 23.4,
+      "registered_respondent_count": 6
+    },
+    {
+      "region": "Rukwa",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 13,
+      "weighted_population": 18258.6432589571,
+      "strand_distribution_pct": {
+        "Banked": 24.9,
+        "Other formal non-bank": 53.7,
+        "Informal only": 12.0,
+        "Excluded": 9.4
+      },
+      "registered_pct": 5.6,
+      "registered_respondent_count": 13
+    },
+    {
+      "region": "Ruvuma",
+      "activity": "Farmers and fishers",
+      "respondent_count": 124,
+      "weighted_population": 205704.44168741722,
+      "strand_distribution_pct": {
+        "Banked": 20.0,
+        "Other formal non-bank": 63.3,
+        "Informal only": 3.4,
+        "Excluded": 13.3
+      },
+      "registered_pct": 3.3,
+      "registered_respondent_count": 124
+    },
+    {
+      "region": "Ruvuma",
+      "activity": "Service providers",
+      "respondent_count": 7,
+      "weighted_population": 19452.85215723326,
+      "strand_distribution_pct": {
+        "Banked": 68.2,
+        "Other formal non-bank": 31.8,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 5.8,
+      "registered_respondent_count": 5
+    },
+    {
+      "region": "Ruvuma",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 3,
+      "weighted_population": 2789.65754955724,
+      "strand_distribution_pct": {
+        "Banked": 66.6,
+        "Other formal non-bank": 33.4,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 2
+    },
+    {
+      "region": "Ruvuma",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 10,
+      "weighted_population": 14107.85339576559,
+      "strand_distribution_pct": {
+        "Banked": 22.2,
+        "Other formal non-bank": 77.8,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 24.2,
+      "registered_respondent_count": 7
+    },
+    {
+      "region": "Shinyanga",
+      "activity": "Farmers and fishers",
+      "respondent_count": 104,
+      "weighted_population": 114014.59888218879,
+      "strand_distribution_pct": {
+        "Banked": 14.0,
+        "Other formal non-bank": 52.8,
+        "Informal only": 18.4,
+        "Excluded": 14.7
+      },
+      "registered_pct": 2.8,
+      "registered_respondent_count": 104
+    },
+    {
+      "region": "Shinyanga",
+      "activity": "Service providers",
+      "respondent_count": 2,
+      "weighted_population": 457.83107659548,
+      "strand_distribution_pct": {
+        "Banked": 53.8,
+        "Other formal non-bank": 46.2,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 53.8,
+      "registered_respondent_count": 2
+    },
+    {
+      "region": "Shinyanga",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 13,
+      "weighted_population": 4386.977028571631,
+      "strand_distribution_pct": {
+        "Banked": 6.4,
+        "Other formal non-bank": 80.7,
+        "Informal only": 12.8,
+        "Excluded": 0.0
+      },
+      "registered_pct": 6.0,
+      "registered_respondent_count": 10
+    },
+    {
+      "region": "Shinyanga",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 20,
+      "weighted_population": 30723.454678290138,
+      "strand_distribution_pct": {
+        "Banked": 7.2,
+        "Other formal non-bank": 74.8,
+        "Informal only": 8.1,
+        "Excluded": 9.8
+      },
+      "registered_pct": 36.5,
+      "registered_respondent_count": 18
+    },
+    {
+      "region": "Simiyu",
+      "activity": "Farmers and fishers",
+      "respondent_count": 137,
+      "weighted_population": 114143.23678549766,
+      "strand_distribution_pct": {
+        "Banked": 7.8,
+        "Other formal non-bank": 51.1,
+        "Informal only": 10.9,
+        "Excluded": 30.1
+      },
+      "registered_pct": 0.3,
+      "registered_respondent_count": 137
+    },
+    {
+      "region": "Simiyu",
+      "activity": "Service providers",
+      "respondent_count": 4,
+      "weighted_population": 4894.123432460114,
+      "strand_distribution_pct": {
+        "Banked": 42.4,
+        "Other formal non-bank": 41.0,
+        "Informal only": 16.6,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 4
+    },
+    {
+      "region": "Simiyu",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 5,
+      "weighted_population": 4380.454199989803,
+      "strand_distribution_pct": {
+        "Banked": 23.5,
+        "Other formal non-bank": 59.1,
+        "Informal only": 17.4,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 5
+    },
+    {
+      "region": "Simiyu",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 19,
+      "weighted_population": 21326.856590151892,
+      "strand_distribution_pct": {
+        "Banked": 32.7,
+        "Other formal non-bank": 59.4,
+        "Informal only": 5.8,
+        "Excluded": 2.1
+      },
+      "registered_pct": 17.7,
+      "registered_respondent_count": 19
+    },
+    {
+      "region": "Singida",
+      "activity": "Farmers and fishers",
+      "respondent_count": 106,
+      "weighted_population": 135421.44397639597,
+      "strand_distribution_pct": {
+        "Banked": 4.1,
+        "Other formal non-bank": 45.6,
+        "Informal only": 6.5,
+        "Excluded": 43.8
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 106
+    },
+    {
+      "region": "Singida",
+      "activity": "Service providers",
+      "respondent_count": 5,
+      "weighted_population": 4611.838326128711,
+      "strand_distribution_pct": {
+        "Banked": 39.2,
+        "Other formal non-bank": 60.8,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 1
+    },
+    {
+      "region": "Singida",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 5,
+      "weighted_population": 3707.785042857273,
+      "strand_distribution_pct": {
+        "Banked": 23.3,
+        "Other formal non-bank": 76.7,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 2
+    },
+    {
+      "region": "Singida",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 7,
+      "weighted_population": 19388.242426022498,
+      "strand_distribution_pct": {
+        "Banked": 29.0,
+        "Other formal non-bank": 35.7,
+        "Informal only": 6.7,
+        "Excluded": 28.6
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 7
+    },
+    {
+      "region": "Songwe",
+      "activity": "Farmers and fishers",
+      "respondent_count": 109,
+      "weighted_population": 173340.73738716793,
+      "strand_distribution_pct": {
+        "Banked": 30.3,
+        "Other formal non-bank": 47.9,
+        "Informal only": 13.2,
+        "Excluded": 8.6
+      },
+      "registered_pct": 15.4,
+      "registered_respondent_count": 109
+    },
+    {
+      "region": "Songwe",
+      "activity": "Service providers",
+      "respondent_count": 7,
+      "weighted_population": 5965.428145319933,
+      "strand_distribution_pct": {
+        "Banked": 33.9,
+        "Other formal non-bank": 55.2,
+        "Informal only": 0.0,
+        "Excluded": 10.9
+      },
+      "registered_pct": 2.0,
+      "registered_respondent_count": 7
+    },
+    {
+      "region": "Songwe",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 2,
+      "weighted_population": 6145.730681806703,
+      "strand_distribution_pct": {
+        "Banked": 91.0,
+        "Other formal non-bank": 9.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 2
+    },
+    {
+      "region": "Songwe",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 13,
+      "weighted_population": 15715.235348255355,
+      "strand_distribution_pct": {
+        "Banked": 25.7,
+        "Other formal non-bank": 66.7,
+        "Informal only": 0.0,
+        "Excluded": 7.6
+      },
+      "registered_pct": 12.1,
+      "registered_respondent_count": 13
+    },
+    {
+      "region": "Tabora",
+      "activity": "Farmers and fishers",
+      "respondent_count": 146,
+      "weighted_population": 225152.35110577825,
+      "strand_distribution_pct": {
+        "Banked": 14.1,
+        "Other formal non-bank": 52.8,
+        "Informal only": 7.4,
+        "Excluded": 25.7
+      },
+      "registered_pct": 4.9,
+      "registered_respondent_count": 146
+    },
+    {
+      "region": "Tabora",
+      "activity": "Service providers",
+      "respondent_count": 10,
+      "weighted_population": 24402.589479889175,
+      "strand_distribution_pct": {
+        "Banked": 31.3,
+        "Other formal non-bank": 68.7,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 5.5,
+      "registered_respondent_count": 8
+    },
+    {
+      "region": "Tabora",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 12,
+      "weighted_population": 18980.786218306905,
+      "strand_distribution_pct": {
+        "Banked": 0.0,
+        "Other formal non-bank": 100.0,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 40.6,
+      "registered_respondent_count": 8
+    },
+    {
+      "region": "Tabora",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 15,
+      "weighted_population": 18659.248872221444,
+      "strand_distribution_pct": {
+        "Banked": 49.6,
+        "Other formal non-bank": 47.1,
+        "Informal only": 0.0,
+        "Excluded": 3.3
+      },
+      "registered_pct": 37.2,
+      "registered_respondent_count": 10
+    },
+    {
+      "region": "Tanga",
+      "activity": "Farmers and fishers",
+      "respondent_count": 217,
+      "weighted_population": 270566.13239901944,
+      "strand_distribution_pct": {
+        "Banked": 7.4,
+        "Other formal non-bank": 66.9,
+        "Informal only": 13.8,
+        "Excluded": 11.8
+      },
+      "registered_pct": 1.3,
+      "registered_respondent_count": 217
+    },
+    {
+      "region": "Tanga",
+      "activity": "Service providers",
+      "respondent_count": 30,
+      "weighted_population": 46197.40028046309,
+      "strand_distribution_pct": {
+        "Banked": 19.8,
+        "Other formal non-bank": 70.8,
+        "Informal only": 4.3,
+        "Excluded": 5.1
+      },
+      "registered_pct": 2.9,
+      "registered_respondent_count": 30
+    },
+    {
+      "region": "Tanga",
+      "activity": "Traders - agricultural products",
+      "respondent_count": 6,
+      "weighted_population": 8255.234502276766,
+      "strand_distribution_pct": {
+        "Banked": 39.7,
+        "Other formal non-bank": 60.3,
+        "Informal only": 0.0,
+        "Excluded": 0.0
+      },
+      "registered_pct": 0.0,
+      "registered_respondent_count": 6
+    },
+    {
+      "region": "Tanga",
+      "activity": "Traders - non-agricultural",
+      "respondent_count": 26,
+      "weighted_population": 39285.24417436658,
+      "strand_distribution_pct": {
+        "Banked": 17.8,
+        "Other formal non-bank": 73.3,
+        "Informal only": 0.0,
+        "Excluded": 9.0
+      },
+      "registered_pct": 11.0,
+      "registered_respondent_count": 19
+    }
+  ]
+}
