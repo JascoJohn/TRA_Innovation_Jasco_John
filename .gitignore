@@ -1,5 +1,17 @@
+# Byte-compiled / cache
 __pycache__/
 *.pyc
+
+# Virtual environments
 .venv/
 venv/
+
+# OS cruft
 .DS_Store
+Thumbs.db
+
+# Research & reference documents (excluded per project decision)
+/Working Docs/
+
+# Stale duplicate of the dashboard folder
+/tra_dashboard.zip

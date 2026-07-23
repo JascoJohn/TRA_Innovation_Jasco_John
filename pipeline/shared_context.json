@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "created_at": "2026-07-22 20:39:15",
+    "last_updated": "2026-07-22 20:47:41",
+    "pipeline_run_id": "fc404471",
+    "agents_completed": [],
+    "agents_pending": [],
+    "pipeline_status": "initialized"
+  },
+  "thesis": {
+    "statement": "Tanzania's tax gap is not a detection problem — it is a relationship problem. TRA currently operates as a Debt Collector arriving at the end of the citizen lifecycle. Transforming TRA into a Civic Partner from birth produces sustainable voluntary compliance that no enforcement strategy can match. Behavioral lifecycle interventions represent the highest-leverage, lowest-cost path to closing Tanzania's 4.1% GDP tax gap.",
+    "alignment_scores": {},
+    "challenges_identified": [],
+    "refinements_suggested": []
+  },
+  "tanzania_stats": {
+    "tax_to_gdp": {
+      "value": 12.4,
+      "unit": "%",
+      "source": "OECD 2023",
+      "year": 2022
+    },
+    "africa_average_tax_gdp": {
+      "value": 16.5,
+      "unit": "%",
+      "source": "OECD 2023",
+      "year": 2022
+    },
+    "tax_gap_pct_gdp": {
+      "value": 4.1,
+      "unit": "%",
+      "source": "OECD 2023",
+      "year": 2022
+    },
+    "informal_economy_gdp": {
+      "value": 57.0,
+      "unit": "%",
+      "source": "IMF WP/21/167",
+      "year": 2021
+    },
+    "population": {
+      "value": 68560157,
+      "unit": "persons",
+      "source": "World Bank SP.POP.TOTL",
+      "year": 2024
+    },
+    "adult_population": {
+      "value": 34134251,
+      "unit": "persons",
+      "source": "FinScope 2023",
+      "year": 2023
+    },
+    "registered_taxpayers": {
+      "value": 3200000,
+      "unit": "persons",
+      "source": "TRA Annual 2023",
+      "year": 2023
+    },
+    "taxpayer_ratio_pct": {
+      "value": 4.7,
+      "unit": "%",
+      "source": "TRA Annual 2023 registered_taxpayers / World Bank population",
+      "year": 2023
+    },
+    "mobile_money_users": {
+      "value": 35000000,
+      "unit": "persons",
+      "source": "BoT Annual 2023",
+      "year": 2023
+    },
+    "mobile_money_gdp_pct": {
+      "value": 49.0,
+      "unit": "%",
+      "source": "BoT Annual 2023",
+      "year": 2023
+    },
+    "informal_workers_pct": {
+      "value": 92.0,
+      "unit": "%",
+      "source": "ILO 2022",
+      "year": 2022
+    },
+    "formal_workers_pct": {
+      "value": 8.0,
+      "unit": "%",
+      "source": "ILO 2022",
+      "year": 2022
+    },
+    "birth_registration_pct": {
+      "value": 51.0,
+      "unit": "%",
+      "source": "UNICEF 2022",
+      "year": 2022
+    },
+    "nssf_coverage_pct": {
+      "value": 5.0,
+      "unit": "%",
+      "source": "ILO 2022",
+      "year": 2022
+    },
+    "youth_under_15_pct": {
+      "value": 44.0,
+      "unit": "%",
+      "source": "World Bank 2023",
+      "year": 2023
+    },
+    "tra_target_tzs": {
+      "value": 28700000000000,
+      "unit": "TZS",
+      "source": "Budget 2024/25",
+      "year": 2024
+    },
+    "property_tax_gdp_pct": {
+      "value": 0.1,
+      "unit": "%",
+      "source": "OECD 2023",
+      "year": 2022
+    },
+    "africa_property_tax_pct": {
+      "value": 0.5,
+      "unit": "%",
+      "source": "OECD 2023",
+      "year": 2022
+    },
+    "rwanda_tax_gdp_pct": {
+      "value": 15.6,
+      "unit": "%",
+      "source": "OECD 2023",
+      "year": 2022
+    },
+    "kenya_tax_gdp_pct": {
+      "value": 14.1,
+      "unit": "%",
+      "source": "OECD 2023",
+      "year": 2022
+    },
+    "poverty_rate_pct": {
+      "value": 26.4,
+      "unit": "%",
+      "source": "World Bank 2023",
+      "year": 2022
+    },
+    "gdp_usd": {
+      "value": 78844405385,
+      "unit": "USD",
+      "source": "World Bank 2024",
+      "year": 2024
+    },
+    "gdp_growth_rate_pct": {
+      "value": 5.53,
+      "unit": "%",
+      "source": "World Bank 2024",
+      "year": 2024
+    },
+    "tzs_per_usd": {
+      "value": 2500,
+      "unit": "TZS",
+      "source": "BoT 2024",
+      "year": 2024
+    }
+  },
+  "lifecycle_populations": {
+    "seed": {
+      "population": 15000000,
+      "age_range": "6-18",
+      "source": "Census 2022 estimate"
+    },
+    "entry": {
+      "population": 8000000,
+      "age_range": "18-25",
+      "source": "Census 2022 estimate"
+    },
+    "active": {
+      "population": 20000000,
+      "age_range": "25-45",
+      "source": "Census 2022 estimate"
+    },
+    "enterprise": {
+      "population": 4000000,
+      "age_range": "any",
+      "source": "TRA estimate"
+    },
+    "asset": {
+      "population": 3000000,
+      "age_range": "45-65",
+      "source": "Census 2022 estimate"
+    },
+    "legacy": {
+      "population": 2000000,
+      "age_range": "65+",
+      "source": "Census 2022 estimate"
+    }
+  },
+  "finscope": {
+    "loaded": false,
+    "source": "FinScope Tanzania 2023",
+    "total_adult_population": null,
+    "tin_rate_pct": null,
+    "mobile_money_rate_pct": null,
+    "mm_no_tin_count": null,
+    "by_stage": {}
+  },
+  "economic_model": {
+    "loaded": false,
+    "current_tax_revenue_tzs": null,
+    "revenue_gap_tzs": null,
+    "scenarios": {}
+  },
+  "interventions": {
+    "total_generated": 28,
+    "total_validated": 0,
+    "total_approved": 0,
+    "by_stage": {
+      "seed": [
+        "INT-562ACC",
+        "INT-E632B8"
+      ],
+      "entry": [
+        "INT-56ECCD",
+        "INT-F9D69B"
+      ],
+      "active": [
+        "INT-D9C375",
+        "INT-A790FD"
+      ],
+      "enterprise": [
+        "INT-EA4A51",
+        "INT-E6B4B9"
+      ],
+      "asset": [
+        "INT-0D08B1",
+        "INT-E0859C"
+      ],
+      "legacy": [
+        "INT-6D1459",
+        "INT-54D577"
+      ]
+    },
+    "by_objective": {
+      "expand_tax_base": [],
+      "simplify_small_business_taxation": [],
+      "improve_digital_services": [],
+      "reduce_collection_costs": [],
+      "use_ai_blockchain_big_data": [],
+      "resolve_tax_disputes": []
+    },
+    "top_5": []
+  },
+  "evidence": {
+    "total_items": 0,
+    "high_confidence_count": 0,
+    "api_verified_count": 0,
+    "by_stage": {
+      "seed": [],
+      "entry": [],
+      "active": [],
+      "enterprise": [],
+      "asset": [],
+      "legacy": []
+    }
+  },
+  "assumptions": {
+    "total": 6,
+    "stress_tested": 0,
+    "items": []
+  },
+  "validation": {
+    "critic_reviews": [],
+    "red_team_findings": [],
+    "equity_flags": [],
+    "legal_flags": [],
+    "unintended_consequences": []
+  },
+  "report_sections": {
+    "executive_summary": null,
+    "section_1_problem": null,
+    "section_2_theory_of_change": null,
+    "section_3_framework": null,
+    "section_4_lifecycle": null,
+    "section_5_innovation": null,
+    "section_6_prioritization": null,
+    "section_7_political_economy": null,
+    "section_8_roadmap": null,
+    "section_9_me_framework": null,
+    "section_10_risk": null,
+    "section_11_impact": null,
+    "section_12_recommendations": null,
+    "section_13_why_tra": null
+  },
+  "objective_crosswalk": {
+    "seed": {
+      "expand_tax_base": null,
+      "simplify_small_business_taxation": null,
+      "improve_digital_services": null,
+      "reduce_collection_costs": null,
+      "use_ai_blockchain_big_data": null,
+      "resolve_tax_disputes": null
+    },
+    "entry": {
+      "expand_tax_base": null,
+      "simplify_small_business_taxation": null,
+      "improve_digital_services": null,
+      "reduce_collection_costs": null,
+      "use_ai_blockchain_big_data": null,
+      "resolve_tax_disputes": null
+    },
+    "active": {
+      "expand_tax_base": null,
+      "simplify_small_business_taxation": null,
+      "improve_digital_services": null,
+      "reduce_collection_costs": null,
+      "use_ai_blockchain_big_data": null,
+      "resolve_tax_disputes": null
+    },
+    "enterprise": {
+      "expand_tax_base": null,
+      "simplify_small_business_taxation": null,
+      "improve_digital_services": null,
+      "reduce_collection_costs": null,
+      "use_ai_blockchain_big_data": null,
+      "resolve_tax_disputes": null
+    },
+    "asset": {
+      "expand_tax_base": null,
+      "simplify_small_business_taxation": null,
+      "improve_digital_services": null,
+      "reduce_collection_costs": null,
+      "use_ai_blockchain_big_data": null,
+      "resolve_tax_disputes": null
+    },
+    "legacy": {
+      "expand_tax_base": null,
+      "simplify_small_business_taxation": null,
+      "improve_digital_services": null,
+      "reduce_collection_costs": null,
+      "use_ai_blockchain_big_data": null,
+      "resolve_tax_disputes": null
+    }
+  },
+  "conflicts": [],
+  "quality_scores": {}
+}

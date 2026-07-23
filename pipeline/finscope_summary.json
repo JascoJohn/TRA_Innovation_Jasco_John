@@ -1,0 +1,536 @@
+{
+  "source": "FinScope Tanzania 2023",
+  "generated_at": "2026-07-22 20:39:13",
+  "acknowledgement": "The findings in this report are based on data collected by FinScope Tanzania 2023. The findings, interpretations, and conclusions expressed in this report are entirely those of the authors and do not necessarily represent the views of FinScope Tanzania 2023.",
+  "methodology": {
+    "sample_size": 9915,
+    "represented_population": 34134251,
+    "weight_variable": "population_wt",
+    "survey_year": 2023,
+    "coverage": "Adults 16+ in Tanzania",
+    "note": "All figures apply population_wt weighting. Categorical variables use text labels (e.g. MM='MM', c27__13='Yes'/'No')."
+  },
+  "total_adult_population": 34134251,
+  "has_income": 34134251,
+  "has_income_pct": 100.0,
+  "uses_mobile_money": 24445601,
+  "mm_rate": 71.6,
+  "has_national_id": 17978049,
+  "id_rate": 52.7,
+  "has_tin": 1306683,
+  "tin_rate": 3.8,
+  "mm_no_tin": 23140012,
+  "mm_no_tin_pct": 94.7,
+  "tin_gap": 32827568,
+  "total_business_owners": 4343781,
+  "registered_businesses": 652846,
+  "unregistered_businesses": 3690934,
+  "biz_registration_rate_pct": 15.0,
+  "by_stage": {
+    "entry": {
+      "population": 10605005,
+      "has_tin": 81605,
+      "tin_rate_pct": 0.8,
+      "uses_mm": 6386359,
+      "mm_rate_pct": 60.2,
+      "mm_no_tin": 6304754,
+      "intervention_target": 10523399,
+      "dropout_rate_pct": 99.2,
+      "urban_pct": 38.9
+    },
+    "active": {
+      "population": 12110885,
+      "has_tin": 559050,
+      "tin_rate_pct": 4.6,
+      "uses_mm": 9408001,
+      "mm_rate_pct": 77.7,
+      "mm_no_tin": 8848950,
+      "intervention_target": 11551835,
+      "dropout_rate_pct": 95.4,
+      "urban_pct": 33.6
+    },
+    "enterprise": {
+      "population": 3488899,
+      "has_tin": 339746,
+      "tin_rate_pct": 9.7,
+      "uses_mm": 3200397,
+      "mm_rate_pct": 91.7,
+      "mm_no_tin": 2860651,
+      "intervention_target": 3149153,
+      "dropout_rate_pct": 90.3,
+      "urban_pct": 57.9
+    },
+    "asset": {
+      "population": 5590836,
+      "has_tin": 240629,
+      "tin_rate_pct": 4.3,
+      "uses_mm": 4240166,
+      "mm_rate_pct": 75.8,
+      "mm_no_tin": 4000631,
+      "intervention_target": 5350206,
+      "dropout_rate_pct": 95.7,
+      "urban_pct": 33.5
+    },
+    "legacy": {
+      "population": 2338624,
+      "has_tin": 85651,
+      "tin_rate_pct": 3.7,
+      "uses_mm": 1210675,
+      "mm_rate_pct": 51.8,
+      "mm_no_tin": 1125023,
+      "intervention_target": 2252972,
+      "dropout_rate_pct": 96.3,
+      "urban_pct": 28.4
+    }
+  },
+  "registration_barriers": {
+    "Tried but failed": {
+      "count": 5223,
+      "pct": 0.1
+    },
+    "No time": {
+      "count": 29260,
+      "pct": 0.8
+    },
+    "No money / too expensive": {
+      "count": 290464,
+      "pct": 7.9
+    },
+    "Too complicated": {
+      "count": 53464,
+      "pct": 1.4
+    },
+    "No benefit seen": {
+      "count": 274278,
+      "pct": 7.4
+    },
+    "Business too small": {
+      "count": 2305291,
+      "pct": 62.5
+    },
+    "Don't want to pay taxes": {
+      "count": 8473,
+      "pct": 0.2
+    },
+    "Don't know how": {
+      "count": 165705,
+      "pct": 4.5
+    },
+    "Registration processing": {
+      "count": 223462,
+      "pct": 6.1
+    },
+    "Other reason": {
+      "count": 15405,
+      "pct": 0.4
+    }
+  },
+  "government_trust": {
+    "overall_trust_score_raw": 48764.0,
+    "overall_trust_score_0_10": 48.76,
+    "reasons_not_using_govt": {
+      "Too far / not accessible": {
+        "count": 278948,
+        "pct": 0.8
+      },
+      "Too complicated / bureaucratic": {
+        "count": 24784,
+        "pct": 0.1
+      },
+      "Do not trust government": {
+        "count": 89061,
+        "pct": 0.3
+      }
+    },
+    "service_satisfaction": {
+      "Satisfied with health services": {
+        "count": 290599,
+        "pct": 0.9
+      },
+      "Satisfied with education services": {
+        "count": 121662,
+        "pct": 0.4
+      },
+      "Satisfied with water services": {
+        "count": 12478,
+        "pct": 0.0
+      },
+      "Satisfied with electricity services": {
+        "count": 9811,
+        "pct": 0.0
+      }
+    }
+  },
+  "mobile_money": {
+    "total_mm_users": 24445601,
+    "mm_penetration_pct": 71.6,
+    "mm_pct_dar_es_salaam": 90.1,
+    "mm_pct_other_urban": 81.3,
+    "mm_pct_rural": 63.7,
+    "by_stage": {
+      "seed": 0,
+      "entry": 60.2,
+      "active": 77.7,
+      "enterprise": 91.7,
+      "asset": 75.8,
+      "legacy": 51.8
+    },
+    "reasons_not_using_mm": {
+      "No phone": {
+        "count": 10254455,
+        "pct": 30.0
+      },
+      "Too expensive": {
+        "count": 7442934,
+        "pct": 21.8
+      },
+      "Do not know how": {
+        "count": 3058700,
+        "pct": 9.0
+      },
+      "Do not trust mobile money": {
+        "count": 406490,
+        "pct": 1.2
+      },
+      "No need": {
+        "count": 8440204,
+        "pct": 24.7
+      },
+      "Other": {
+        "count": 190385,
+        "pct": 0.6
+      }
+    },
+    "banked_pct": 22.2,
+    "mm_only_not_banked": 17154660,
+    "mm_only_pct": 50.3
+  },
+  "geography": {
+    "dar_es_salaam": {
+      "population": 3756830,
+      "tin_rate_pct": 8.3,
+      "mm_rate_pct": 90.1
+    },
+    "other_urban": {
+      "population": 8989913,
+      "tin_rate_pct": 7.4,
+      "mm_rate_pct": 81.3
+    },
+    "rural": {
+      "population": 20435966,
+      "tin_rate_pct": 1.5,
+      "mm_rate_pct": 63.7
+    },
+    "by_region": {
+      "Mwanza": {
+        "population": 1809853,
+        "tin_rate_pct": 3.5
+      },
+      "Kagera": {
+        "population": 1737807,
+        "tin_rate_pct": 1.5
+      },
+      "Mbeya": {
+        "population": 1508407,
+        "tin_rate_pct": 2.8
+      },
+      "Dodoma": {
+        "population": 1844780,
+        "tin_rate_pct": 3.7
+      },
+      "Dar es Salaam": {
+        "population": 3796632,
+        "tin_rate_pct": 8.3
+      },
+      "Singida": {
+        "population": 919101,
+        "tin_rate_pct": 2.0
+      },
+      "Geita": {
+        "population": 1348483,
+        "tin_rate_pct": 1.7
+      },
+      "Tanga": {
+        "population": 1462356,
+        "tin_rate_pct": 3.4
+      },
+      "Lindi": {
+        "population": 767836,
+        "tin_rate_pct": 2.6
+      },
+      "Ruvuma": {
+        "population": 1113952,
+        "tin_rate_pct": 2.1
+      },
+      "Njombe": {
+        "population": 551995,
+        "tin_rate_pct": 7.6
+      },
+      "Morogoro": {
+        "population": 2011745,
+        "tin_rate_pct": 3.1
+      },
+      "Katavi": {
+        "population": 548604,
+        "tin_rate_pct": 2.2
+      },
+      "Songwe": {
+        "population": 759555,
+        "tin_rate_pct": 6.3
+      },
+      "Rukwa": {
+        "population": 839608,
+        "tin_rate_pct": 1.3
+      },
+      "Iringa": {
+        "population": 757721,
+        "tin_rate_pct": 5.1
+      },
+      "Manyara": {
+        "population": 1021425,
+        "tin_rate_pct": 4.9
+      },
+      "Mtwara": {
+        "population": 1103406,
+        "tin_rate_pct": 2.0
+      },
+      "Pwani": {
+        "population": 1275357,
+        "tin_rate_pct": 3.1
+      },
+      "Mara": {
+        "population": 1074681,
+        "tin_rate_pct": 1.6
+      },
+      "Arusha": {
+        "population": 1358598,
+        "tin_rate_pct": 10.7
+      },
+      "Kigoma": {
+        "population": 1199124,
+        "tin_rate_pct": 1.9
+      },
+      "Tabora": {
+        "population": 1495125,
+        "tin_rate_pct": 0.8
+      },
+      "Kilimanjaro": {
+        "population": 1088212,
+        "tin_rate_pct": 3.6
+      },
+      "Simiyu": {
+        "population": 721184,
+        "tin_rate_pct": 2.8
+      },
+      "Kusini Pemba": {
+        "population": 118237,
+        "tin_rate_pct": 0.9
+      },
+      "Kaskazini Pemba": {
+        "population": 126785,
+        "tin_rate_pct": 0.5
+      },
+      "Kusini Unguja": {
+        "population": 117103,
+        "tin_rate_pct": 3.0
+      },
+      "Kaskazini Unguja": {
+        "population": 135534,
+        "tin_rate_pct": 0.0
+      },
+      "Mjini Magharibi": {
+        "population": 457217,
+        "tin_rate_pct": 2.8
+      },
+      "Shinyanga": {
+        "population": 1063813,
+        "tin_rate_pct": 5.8
+      }
+    }
+  },
+  "income_sources": {
+    "Farming / agriculture": {
+      "count": 2728907,
+      "pct": 8.0
+    },
+    "Livestock / fishing / forestry": {
+      "count": 15015647,
+      "pct": 44.0
+    },
+    "Casual / piece work": {
+      "count": 1793232,
+      "pct": 5.3
+    },
+    "Regular paid employment": {
+      "count": 11847270,
+      "pct": 34.7
+    },
+    "Own business": {
+      "count": 435282,
+      "pct": 1.3
+    },
+    "Remittances from family": {
+      "count": 227514,
+      "pct": 0.7
+    },
+    "Government grants": {
+      "count": 370246,
+      "pct": 1.1
+    },
+    "Pension": {
+      "count": 5239679,
+      "pct": 15.4
+    },
+    "Investments / interest": {
+      "count": 208650,
+      "pct": 0.6
+    },
+    "Support from family / friends": {
+      "count": 3852414,
+      "pct": 11.3
+    },
+    "Other income": {
+      "count": 306132,
+      "pct": 0.9
+    }
+  },
+  "pension_insurance": {
+    "pension_coverage_pct": 3.8,
+    "pension_holders": 1300551,
+    "pension_gap": 32833700,
+    "pension_gap_pct": 96.2,
+    "pension_by_stage": {
+      "entry": {
+        "coverage_pct": 0.5,
+        "holders": 55562,
+        "gap": 10549442
+      },
+      "active": {
+        "coverage_pct": 5.6,
+        "holders": 676459,
+        "gap": 11434426
+      },
+      "enterprise": {
+        "coverage_pct": 1.1,
+        "holders": 38090,
+        "gap": 3450808
+      },
+      "asset": {
+        "coverage_pct": 6.1,
+        "holders": 339750,
+        "gap": 5251086
+      },
+      "legacy": {
+        "coverage_pct": 8.2,
+        "holders": 190687,
+        "gap": 2147936
+      }
+    },
+    "insurance_coverage_pct": 9.6,
+    "insurance_holders": 3261544,
+    "insurance_gap": 30872707,
+    "insurance_gap_pct": 90.4,
+    "insurance_by_stage": {
+      "entry": {
+        "coverage_pct": 6.9,
+        "holders": 731413,
+        "gap": 9873591
+      },
+      "active": {
+        "coverage_pct": 7.7,
+        "holders": 927051,
+        "gap": 11183834
+      },
+      "enterprise": {
+        "coverage_pct": 11.4,
+        "holders": 399233,
+        "gap": 3089666
+      },
+      "asset": {
+        "coverage_pct": 11.8,
+        "holders": 660018,
+        "gap": 4930817
+      },
+      "legacy": {
+        "coverage_pct": 23.3,
+        "holders": 543827,
+        "gap": 1794797
+      }
+    },
+    "insurance_barriers": {
+      "Does not know the benefits of health insurance": {
+        "count": 2507478,
+        "pct": 8.1
+      },
+      "Does not know how it works": {
+        "count": 2540206,
+        "pct": 8.2
+      },
+      "Cannot afford it": {
+        "count": 18888406,
+        "pct": 61.2
+      },
+      "Lack of insurance knowledge/education": {
+        "count": 992836,
+        "pct": 3.2
+      },
+      "Does not know how to get it/where to get it": {
+        "count": 1799917,
+        "pct": 5.8
+      },
+      "Am not the decision maker": {
+        "count": 1744544,
+        "pct": 5.7
+      },
+      "You have to pay for medicines": {
+        "count": 1094065,
+        "pct": 3.5
+      },
+      "Protects self in other ways – don’t need it": {
+        "count": 680394,
+        "pct": 2.2
+      }
+    },
+    "policy_implications": {
+      "pension": "Only 3.8% of Tanzanian adults have pension coverage. 32,833,700 people — including virtually the entire Legacy Stage — have no formal retirement income and no existing TRA relationship through pension systems. Legacy Stage interventions cannot rely on pension records as a touchpoint and must build the relationship from scratch.",
+      "insurance": "Only 9.6% of Tanzanian adults have insurance. The Asset Stage population has no formal financial protection and no existing formal relationship that TRA can use as an entry point. Asset Stage interventions must lead with value — offering something before asking for compliance — because there is no existing trust relationship to draw on."
+    }
+  },
+  "financial_access": {
+    "strand_breakdown": {
+      "Other formal non-bank": {
+        "count": 18244762,
+        "pct": 53.5
+      },
+      "Banked": {
+        "count": 7578535,
+        "pct": 22.2
+      },
+      "Excluded": {
+        "count": 6370308,
+        "pct": 18.7
+      },
+      "Informal only": {
+        "count": 1940645,
+        "pct": 5.7
+      }
+    },
+    "financially_excluded": 6370308,
+    "financially_excluded_pct": 18.7
+  },
+  "intervention_targets": {
+    "mm_users_without_tin": {
+      "count": 23140012,
+      "description": "Mobile money users without a TIN. Reachable via USSD. Highest-leverage Entry Stage target.",
+      "primary_barrier": "Business too small"
+    },
+    "unregistered_business_owners": {
+      "count": 3690934,
+      "description": "Business owners without formal registration. SME simplification target."
+    },
+    "entry_stage_mm_no_tin": {
+      "count": 6304754,
+      "description": "Entry stage (16-25) mobile money users without TIN. The Juma cohort."
+    }
+  }
+}

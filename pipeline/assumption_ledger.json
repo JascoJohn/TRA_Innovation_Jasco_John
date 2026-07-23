@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-07-22 20:39:15",
+  "total": 6,
+  "assumptions": [
+    {
+      "assumption_id": "ASS-A2B8EB",
+      "assumption_text": "USSD TIN nudge (Entry Stage): implementation cost TZS 420,000,000 and annual revenue TZS 8,700,000,000 are illustrative placeholder figures, not derived from FinScope/ILFS/TRA-Excel data.",
+      "made_by_agent": "economic_model.calculate_cost_benefit",
+      "category": "economic",
+      "confidence": "LOW",
+      "evidence_support": "No source dataset -- fixed constant in source code",
+      "stress_tested": false,
+      "stress_test_result": null,
+      "section_reference": "section_11_impact",
+      "created_at": "2026-07-22 20:39:15"
+    },
+    {
+      "assumption_id": "ASS-530CE4",
+      "assumption_text": "Mobile money TIN bridge: implementation cost TZS 1,200,000,000 and annual revenue TZS 15,400,000,000 are illustrative placeholder figures, not derived from FinScope/ILFS/TRA-Excel data.",
+      "made_by_agent": "economic_model.calculate_cost_benefit",
+      "category": "economic",
+      "confidence": "LOW",
+      "evidence_support": "No source dataset -- fixed constant in source code",
+      "stress_tested": false,
+      "stress_test_result": null,
+      "section_reference": "section_11_impact",
+      "created_at": "2026-07-22 20:39:15"
+    },
+    {
+      "assumption_id": "ASS-C533BD",
+      "assumption_text": "Presumptive tax simplification: implementation cost TZS 600,000,000 and annual revenue TZS 12,800,000,000 are illustrative placeholder figures, not derived from FinScope/ILFS/TRA-Excel data.",
+      "made_by_agent": "economic_model.calculate_cost_benefit",
+      "category": "economic",
+      "confidence": "LOW",
+      "evidence_support": "No source dataset -- fixed constant in source code",
+      "stress_tested": false,
+      "stress_test_result": null,
+      "section_reference": "section_11_impact",
+      "created_at": "2026-07-22 20:39:15"
+    },
+    {
+      "assumption_id": "ASS-A4AD37",
+      "assumption_text": "Property registry reform: implementation cost TZS 3,500,000,000 and annual revenue TZS 18,200,000,000 are illustrative placeholder figures, not derived from FinScope/ILFS/TRA-Excel data.",
+      "made_by_agent": "economic_model.calculate_cost_benefit",
+      "category": "economic",
+      "confidence": "LOW",
+      "evidence_support": "No source dataset -- fixed constant in source code",
+      "stress_tested": false,
+      "stress_test_result": null,
+      "section_reference": "section_11_impact",
+      "created_at": "2026-07-22 20:39:15"
+    },
+    {
+      "assumption_id": "ASS-8034AF",
+      "assumption_text": "School tax curriculum: implementation cost TZS 800,000,000 and annual revenue TZS 3,200,000,000 are illustrative placeholder figures, not derived from FinScope/ILFS/TRA-Excel data.",
+      "made_by_agent": "economic_model.calculate_cost_benefit",
+      "category": "economic",
+      "confidence": "LOW",
+      "evidence_support": "No source dataset -- fixed constant in source code",
+      "stress_tested": false,
+      "stress_test_result": null,
+      "section_reference": "section_11_impact",
+      "created_at": "2026-07-22 20:39:15"
+    },
+    {
+      "assumption_id": "ASS-AF442A",
+      "assumption_text": "Visible tax returns campaign: implementation cost TZS 250,000,000 and annual revenue TZS 4,100,000,000 are illustrative placeholder figures, not derived from FinScope/ILFS/TRA-Excel data.",
+      "made_by_agent": "economic_model.calculate_cost_benefit",
+      "category": "economic",
+      "confidence": "LOW",
+      "evidence_support": "No source dataset -- fixed constant in source code",
+      "stress_tested": false,
+      "stress_test_result": null,
+      "section_reference": "section_11_impact",
+      "created_at": "2026-07-22 20:39:15"
+    }
+  ]
+}

@@ -1,0 +1,874 @@
+{
+  "source": "FinScope Tanzania 2023 (n=9,915, weighted by Household_weight)",
+  "methodology": "Weighted prevalence of four business-activity IncomeMain categories (Traders - non-agricultural, Traders - agricultural products, Service providers, Farmers and fishers) within each region. This is a population-share table, not a turnover/income-amount distribution -- FinScope 2023 contains no turnover or income-amount variable, checked exhaustively against the codebook and raw columns.",
+  "rows": [
+    {
+      "region": "Arusha",
+      "activity": "Farmers and fishers",
+      "weighted_population": 94495.87997262234,
+      "pct_of_region_business_activity": 42.89,
+      "respondent_count": 68
+    },
+    {
+      "region": "Arusha",
+      "activity": "Service providers",
+      "weighted_population": 18784.82788754934,
+      "pct_of_region_business_activity": 8.53,
+      "respondent_count": 13
+    },
+    {
+      "region": "Arusha",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 8215.188883152794,
+      "pct_of_region_business_activity": 3.73,
+      "respondent_count": 3
+    },
+    {
+      "region": "Arusha",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 98834.81163630825,
+      "pct_of_region_business_activity": 44.86,
+      "respondent_count": 37
+    },
+    {
+      "region": "Dar es Salaam",
+      "activity": "Farmers and fishers",
+      "weighted_population": 57187.1942461365,
+      "pct_of_region_business_activity": 16.38,
+      "respondent_count": 16
+    },
+    {
+      "region": "Dar es Salaam",
+      "activity": "Service providers",
+      "weighted_population": 86960.4064580355,
+      "pct_of_region_business_activity": 24.91,
+      "respondent_count": 25
+    },
+    {
+      "region": "Dar es Salaam",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 28367.547535561087,
+      "pct_of_region_business_activity": 8.13,
+      "respondent_count": 15
+    },
+    {
+      "region": "Dar es Salaam",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 176584.75628082344,
+      "pct_of_region_business_activity": 50.58,
+      "respondent_count": 58
+    },
+    {
+      "region": "Dodoma",
+      "activity": "Farmers and fishers",
+      "weighted_population": 225029.75912059832,
+      "pct_of_region_business_activity": 68.77,
+      "respondent_count": 157
+    },
+    {
+      "region": "Dodoma",
+      "activity": "Service providers",
+      "weighted_population": 22764.971641287095,
+      "pct_of_region_business_activity": 6.96,
+      "respondent_count": 12
+    },
+    {
+      "region": "Dodoma",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 33612.1454225119,
+      "pct_of_region_business_activity": 10.27,
+      "respondent_count": 19
+    },
+    {
+      "region": "Dodoma",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 45835.64865270539,
+      "pct_of_region_business_activity": 14.01,
+      "respondent_count": 29
+    },
+    {
+      "region": "Geita",
+      "activity": "Farmers and fishers",
+      "weighted_population": 92605.1499247197,
+      "pct_of_region_business_activity": 53.75,
+      "respondent_count": 83
+    },
+    {
+      "region": "Geita",
+      "activity": "Service providers",
+      "weighted_population": 13603.747974910566,
+      "pct_of_region_business_activity": 7.9,
+      "respondent_count": 10
+    },
+    {
+      "region": "Geita",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 14265.939766713216,
+      "pct_of_region_business_activity": 8.28,
+      "respondent_count": 12
+    },
+    {
+      "region": "Geita",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 51813.26457093485,
+      "pct_of_region_business_activity": 30.07,
+      "respondent_count": 30
+    },
+    {
+      "region": "Iringa",
+      "activity": "Farmers and fishers",
+      "weighted_population": 90136.99949397835,
+      "pct_of_region_business_activity": 72.42,
+      "respondent_count": 86
+    },
+    {
+      "region": "Iringa",
+      "activity": "Service providers",
+      "weighted_population": 5041.333373225178,
+      "pct_of_region_business_activity": 4.05,
+      "respondent_count": 4
+    },
+    {
+      "region": "Iringa",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 9623.33080834052,
+      "pct_of_region_business_activity": 7.73,
+      "respondent_count": 4
+    },
+    {
+      "region": "Iringa",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 19661.31946676388,
+      "pct_of_region_business_activity": 15.8,
+      "respondent_count": 12
+    },
+    {
+      "region": "Kagera",
+      "activity": "Farmers and fishers",
+      "weighted_population": 339119.40635976405,
+      "pct_of_region_business_activity": 85.85,
+      "respondent_count": 161
+    },
+    {
+      "region": "Kagera",
+      "activity": "Service providers",
+      "weighted_population": 27728.12773517901,
+      "pct_of_region_business_activity": 7.02,
+      "respondent_count": 16
+    },
+    {
+      "region": "Kagera",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 7454.644681714048,
+      "pct_of_region_business_activity": 1.89,
+      "respondent_count": 7
+    },
+    {
+      "region": "Kagera",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 20713.876897115908,
+      "pct_of_region_business_activity": 5.24,
+      "respondent_count": 9
+    },
+    {
+      "region": "Kaskazini Pemba",
+      "activity": "Farmers and fishers",
+      "weighted_population": 6970.8471626081755,
+      "pct_of_region_business_activity": 52.84,
+      "respondent_count": 29
+    },
+    {
+      "region": "Kaskazini Pemba",
+      "activity": "Service providers",
+      "weighted_population": 2250.534133187533,
+      "pct_of_region_business_activity": 17.06,
+      "respondent_count": 8
+    },
+    {
+      "region": "Kaskazini Pemba",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 1112.884631931357,
+      "pct_of_region_business_activity": 8.44,
+      "respondent_count": 4
+    },
+    {
+      "region": "Kaskazini Pemba",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 2857.9936430855264,
+      "pct_of_region_business_activity": 21.66,
+      "respondent_count": 11
+    },
+    {
+      "region": "Kaskazini Unguja",
+      "activity": "Farmers and fishers",
+      "weighted_population": 8163.213931578915,
+      "pct_of_region_business_activity": 49.34,
+      "respondent_count": 27
+    },
+    {
+      "region": "Kaskazini Unguja",
+      "activity": "Service providers",
+      "weighted_population": 2952.074437303097,
+      "pct_of_region_business_activity": 17.84,
+      "respondent_count": 9
+    },
+    {
+      "region": "Kaskazini Unguja",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 611.003689595896,
+      "pct_of_region_business_activity": 3.69,
+      "respondent_count": 2
+    },
+    {
+      "region": "Kaskazini Unguja",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 4819.68907905379,
+      "pct_of_region_business_activity": 29.13,
+      "respondent_count": 17
+    },
+    {
+      "region": "Katavi",
+      "activity": "Farmers and fishers",
+      "weighted_population": 100553.6192792537,
+      "pct_of_region_business_activity": 86.31,
+      "respondent_count": 97
+    },
+    {
+      "region": "Katavi",
+      "activity": "Service providers",
+      "weighted_population": 2354.31692164832,
+      "pct_of_region_business_activity": 2.02,
+      "respondent_count": 3
+    },
+    {
+      "region": "Katavi",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 7340.474893050359,
+      "pct_of_region_business_activity": 6.3,
+      "respondent_count": 9
+    },
+    {
+      "region": "Katavi",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 6255.96285186965,
+      "pct_of_region_business_activity": 5.37,
+      "respondent_count": 7
+    },
+    {
+      "region": "Kigoma",
+      "activity": "Farmers and fishers",
+      "weighted_population": 135973.1749382827,
+      "pct_of_region_business_activity": 72.69,
+      "respondent_count": 132
+    },
+    {
+      "region": "Kigoma",
+      "activity": "Service providers",
+      "weighted_population": 17410.412793716856,
+      "pct_of_region_business_activity": 9.31,
+      "respondent_count": 13
+    },
+    {
+      "region": "Kigoma",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 16212.618747625713,
+      "pct_of_region_business_activity": 8.67,
+      "respondent_count": 16
+    },
+    {
+      "region": "Kigoma",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 17475.20062178598,
+      "pct_of_region_business_activity": 9.34,
+      "respondent_count": 13
+    },
+    {
+      "region": "Kilimanjaro",
+      "activity": "Farmers and fishers",
+      "weighted_population": 171630.19831473433,
+      "pct_of_region_business_activity": 72.54,
+      "respondent_count": 87
+    },
+    {
+      "region": "Kilimanjaro",
+      "activity": "Service providers",
+      "weighted_population": 18922.291797042733,
+      "pct_of_region_business_activity": 8.0,
+      "respondent_count": 9
+    },
+    {
+      "region": "Kilimanjaro",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 7041.85701398945,
+      "pct_of_region_business_activity": 2.98,
+      "respondent_count": 6
+    },
+    {
+      "region": "Kilimanjaro",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 38990.62669513911,
+      "pct_of_region_business_activity": 16.48,
+      "respondent_count": 24
+    },
+    {
+      "region": "Kusini Pemba",
+      "activity": "Farmers and fishers",
+      "weighted_population": 3158.4251800566044,
+      "pct_of_region_business_activity": 34.04,
+      "respondent_count": 12
+    },
+    {
+      "region": "Kusini Pemba",
+      "activity": "Service providers",
+      "weighted_population": 1264.4474034826621,
+      "pct_of_region_business_activity": 13.63,
+      "respondent_count": 6
+    },
+    {
+      "region": "Kusini Pemba",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 131.783677034388,
+      "pct_of_region_business_activity": 1.42,
+      "respondent_count": 1
+    },
+    {
+      "region": "Kusini Pemba",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 4724.258026689802,
+      "pct_of_region_business_activity": 50.91,
+      "respondent_count": 21
+    },
+    {
+      "region": "Kusini Unguja",
+      "activity": "Farmers and fishers",
+      "weighted_population": 7415.126678426289,
+      "pct_of_region_business_activity": 49.77,
+      "respondent_count": 34
+    },
+    {
+      "region": "Kusini Unguja",
+      "activity": "Service providers",
+      "weighted_population": 2702.6441303019965,
+      "pct_of_region_business_activity": 18.14,
+      "respondent_count": 9
+    },
+    {
+      "region": "Kusini Unguja",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 824.7347598877946,
+      "pct_of_region_business_activity": 5.54,
+      "respondent_count": 4
+    },
+    {
+      "region": "Kusini Unguja",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 3955.151987052097,
+      "pct_of_region_business_activity": 26.55,
+      "respondent_count": 14
+    },
+    {
+      "region": "Lindi",
+      "activity": "Farmers and fishers",
+      "weighted_population": 162275.89852068393,
+      "pct_of_region_business_activity": 81.6,
+      "respondent_count": 105
+    },
+    {
+      "region": "Lindi",
+      "activity": "Service providers",
+      "weighted_population": 22463.337945783922,
+      "pct_of_region_business_activity": 11.3,
+      "respondent_count": 17
+    },
+    {
+      "region": "Lindi",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 2230.74844854717,
+      "pct_of_region_business_activity": 1.12,
+      "respondent_count": 1
+    },
+    {
+      "region": "Lindi",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 11898.125583125988,
+      "pct_of_region_business_activity": 5.98,
+      "respondent_count": 7
+    },
+    {
+      "region": "Manyara",
+      "activity": "Farmers and fishers",
+      "weighted_population": 159158.7521123325,
+      "pct_of_region_business_activity": 90.76,
+      "respondent_count": 139
+    },
+    {
+      "region": "Manyara",
+      "activity": "Service providers",
+      "weighted_population": 5580.8483793492305,
+      "pct_of_region_business_activity": 3.18,
+      "respondent_count": 5
+    },
+    {
+      "region": "Manyara",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 1473.384547071067,
+      "pct_of_region_business_activity": 0.84,
+      "respondent_count": 2
+    },
+    {
+      "region": "Manyara",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 9140.728745458679,
+      "pct_of_region_business_activity": 5.21,
+      "respondent_count": 7
+    },
+    {
+      "region": "Mara",
+      "activity": "Farmers and fishers",
+      "weighted_population": 172339.77787464132,
+      "pct_of_region_business_activity": 62.03,
+      "respondent_count": 126
+    },
+    {
+      "region": "Mara",
+      "activity": "Service providers",
+      "weighted_population": 26136.981217435878,
+      "pct_of_region_business_activity": 9.41,
+      "respondent_count": 15
+    },
+    {
+      "region": "Mara",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 15988.552236014211,
+      "pct_of_region_business_activity": 5.75,
+      "respondent_count": 12
+    },
+    {
+      "region": "Mara",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 63387.2102189359,
+      "pct_of_region_business_activity": 22.81,
+      "respondent_count": 37
+    },
+    {
+      "region": "Mbeya",
+      "activity": "Farmers and fishers",
+      "weighted_population": 189803.55730285752,
+      "pct_of_region_business_activity": 69.32,
+      "respondent_count": 109
+    },
+    {
+      "region": "Mbeya",
+      "activity": "Service providers",
+      "weighted_population": 35849.92662061088,
+      "pct_of_region_business_activity": 13.09,
+      "respondent_count": 8
+    },
+    {
+      "region": "Mbeya",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 1594.053593199388,
+      "pct_of_region_business_activity": 0.58,
+      "respondent_count": 2
+    },
+    {
+      "region": "Mbeya",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 46545.294525175676,
+      "pct_of_region_business_activity": 17.0,
+      "respondent_count": 21
+    },
+    {
+      "region": "Mjini Magharibi",
+      "activity": "Farmers and fishers",
+      "weighted_population": 7049.132337004138,
+      "pct_of_region_business_activity": 14.71,
+      "respondent_count": 12
+    },
+    {
+      "region": "Mjini Magharibi",
+      "activity": "Service providers",
+      "weighted_population": 13843.667562751907,
+      "pct_of_region_business_activity": 28.88,
+      "respondent_count": 21
+    },
+    {
+      "region": "Mjini Magharibi",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 3519.558995228487,
+      "pct_of_region_business_activity": 7.34,
+      "respondent_count": 6
+    },
+    {
+      "region": "Mjini Magharibi",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 23520.02846269096,
+      "pct_of_region_business_activity": 49.07,
+      "respondent_count": 36
+    },
+    {
+      "region": "Morogoro",
+      "activity": "Farmers and fishers",
+      "weighted_population": 309411.07917116955,
+      "pct_of_region_business_activity": 74.95,
+      "respondent_count": 205
+    },
+    {
+      "region": "Morogoro",
+      "activity": "Service providers",
+      "weighted_population": 50412.71742588923,
+      "pct_of_region_business_activity": 12.21,
+      "respondent_count": 27
+    },
+    {
+      "region": "Morogoro",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 24397.271765642447,
+      "pct_of_region_business_activity": 5.91,
+      "respondent_count": 14
+    },
+    {
+      "region": "Morogoro",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 28578.352933092327,
+      "pct_of_region_business_activity": 6.92,
+      "respondent_count": 16
+    },
+    {
+      "region": "Mtwara",
+      "activity": "Farmers and fishers",
+      "weighted_population": 238090.0804495762,
+      "pct_of_region_business_activity": 80.07,
+      "respondent_count": 172
+    },
+    {
+      "region": "Mtwara",
+      "activity": "Service providers",
+      "weighted_population": 22613.34236284044,
+      "pct_of_region_business_activity": 7.6,
+      "respondent_count": 17
+    },
+    {
+      "region": "Mtwara",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 6820.018714926312,
+      "pct_of_region_business_activity": 2.29,
+      "respondent_count": 5
+    },
+    {
+      "region": "Mtwara",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 29829.792220796764,
+      "pct_of_region_business_activity": 10.03,
+      "respondent_count": 29
+    },
+    {
+      "region": "Mwanza",
+      "activity": "Farmers and fishers",
+      "weighted_population": 206076.40848873206,
+      "pct_of_region_business_activity": 58.64,
+      "respondent_count": 160
+    },
+    {
+      "region": "Mwanza",
+      "activity": "Service providers",
+      "weighted_population": 58359.74336605364,
+      "pct_of_region_business_activity": 16.61,
+      "respondent_count": 37
+    },
+    {
+      "region": "Mwanza",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 13928.721951976178,
+      "pct_of_region_business_activity": 3.96,
+      "respondent_count": 11
+    },
+    {
+      "region": "Mwanza",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 73085.20740298643,
+      "pct_of_region_business_activity": 20.8,
+      "respondent_count": 53
+    },
+    {
+      "region": "Njombe",
+      "activity": "Farmers and fishers",
+      "weighted_population": 121827.95546834567,
+      "pct_of_region_business_activity": 80.85,
+      "respondent_count": 102
+    },
+    {
+      "region": "Njombe",
+      "activity": "Service providers",
+      "weighted_population": 11992.268998686868,
+      "pct_of_region_business_activity": 7.96,
+      "respondent_count": 11
+    },
+    {
+      "region": "Njombe",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 5256.856055873526,
+      "pct_of_region_business_activity": 3.49,
+      "respondent_count": 4
+    },
+    {
+      "region": "Njombe",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 11600.617550583702,
+      "pct_of_region_business_activity": 7.7,
+      "respondent_count": 11
+    },
+    {
+      "region": "Pwani",
+      "activity": "Farmers and fishers",
+      "weighted_population": 72128.51626867426,
+      "pct_of_region_business_activity": 35.56,
+      "respondent_count": 63
+    },
+    {
+      "region": "Pwani",
+      "activity": "Service providers",
+      "weighted_population": 31280.559868421904,
+      "pct_of_region_business_activity": 15.42,
+      "respondent_count": 21
+    },
+    {
+      "region": "Pwani",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 25764.910868302133,
+      "pct_of_region_business_activity": 12.7,
+      "respondent_count": 7
+    },
+    {
+      "region": "Pwani",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 73678.21187640767,
+      "pct_of_region_business_activity": 36.32,
+      "respondent_count": 21
+    },
+    {
+      "region": "Rukwa",
+      "activity": "Farmers and fishers",
+      "weighted_population": 145031.35881273693,
+      "pct_of_region_business_activity": 81.58,
+      "respondent_count": 110
+    },
+    {
+      "region": "Rukwa",
+      "activity": "Service providers",
+      "weighted_population": 6179.74815580103,
+      "pct_of_region_business_activity": 3.48,
+      "respondent_count": 5
+    },
+    {
+      "region": "Rukwa",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 8309.465129912529,
+      "pct_of_region_business_activity": 4.67,
+      "respondent_count": 6
+    },
+    {
+      "region": "Rukwa",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 18258.6432589571,
+      "pct_of_region_business_activity": 10.27,
+      "respondent_count": 13
+    },
+    {
+      "region": "Ruvuma",
+      "activity": "Farmers and fishers",
+      "weighted_population": 205704.44168741722,
+      "pct_of_region_business_activity": 84.98,
+      "respondent_count": 124
+    },
+    {
+      "region": "Ruvuma",
+      "activity": "Service providers",
+      "weighted_population": 19452.85215723326,
+      "pct_of_region_business_activity": 8.04,
+      "respondent_count": 7
+    },
+    {
+      "region": "Ruvuma",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 2789.65754955724,
+      "pct_of_region_business_activity": 1.15,
+      "respondent_count": 3
+    },
+    {
+      "region": "Ruvuma",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 14107.85339576559,
+      "pct_of_region_business_activity": 5.83,
+      "respondent_count": 10
+    },
+    {
+      "region": "Shinyanga",
+      "activity": "Farmers and fishers",
+      "weighted_population": 114014.59888218879,
+      "pct_of_region_business_activity": 76.22,
+      "respondent_count": 104
+    },
+    {
+      "region": "Shinyanga",
+      "activity": "Service providers",
+      "weighted_population": 457.83107659548,
+      "pct_of_region_business_activity": 0.31,
+      "respondent_count": 2
+    },
+    {
+      "region": "Shinyanga",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 4386.977028571631,
+      "pct_of_region_business_activity": 2.93,
+      "respondent_count": 13
+    },
+    {
+      "region": "Shinyanga",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 30723.454678290138,
+      "pct_of_region_business_activity": 20.54,
+      "respondent_count": 20
+    },
+    {
+      "region": "Simiyu",
+      "activity": "Farmers and fishers",
+      "weighted_population": 114143.23678549766,
+      "pct_of_region_business_activity": 78.86,
+      "respondent_count": 137
+    },
+    {
+      "region": "Simiyu",
+      "activity": "Service providers",
+      "weighted_population": 4894.123432460114,
+      "pct_of_region_business_activity": 3.38,
+      "respondent_count": 4
+    },
+    {
+      "region": "Simiyu",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 4380.454199989803,
+      "pct_of_region_business_activity": 3.03,
+      "respondent_count": 5
+    },
+    {
+      "region": "Simiyu",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 21326.856590151892,
+      "pct_of_region_business_activity": 14.73,
+      "respondent_count": 19
+    },
+    {
+      "region": "Singida",
+      "activity": "Farmers and fishers",
+      "weighted_population": 135421.44397639597,
+      "pct_of_region_business_activity": 83.01,
+      "respondent_count": 106
+    },
+    {
+      "region": "Singida",
+      "activity": "Service providers",
+      "weighted_population": 4611.838326128711,
+      "pct_of_region_business_activity": 2.83,
+      "respondent_count": 5
+    },
+    {
+      "region": "Singida",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 3707.785042857273,
+      "pct_of_region_business_activity": 2.27,
+      "respondent_count": 5
+    },
+    {
+      "region": "Singida",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 19388.242426022498,
+      "pct_of_region_business_activity": 11.89,
+      "respondent_count": 7
+    },
+    {
+      "region": "Songwe",
+      "activity": "Farmers and fishers",
+      "weighted_population": 173340.73738716793,
+      "pct_of_region_business_activity": 86.17,
+      "respondent_count": 109
+    },
+    {
+      "region": "Songwe",
+      "activity": "Service providers",
+      "weighted_population": 5965.428145319933,
+      "pct_of_region_business_activity": 2.97,
+      "respondent_count": 7
+    },
+    {
+      "region": "Songwe",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 6145.730681806703,
+      "pct_of_region_business_activity": 3.06,
+      "respondent_count": 2
+    },
+    {
+      "region": "Songwe",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 15715.235348255355,
+      "pct_of_region_business_activity": 7.81,
+      "respondent_count": 13
+    },
+    {
+      "region": "Tabora",
+      "activity": "Farmers and fishers",
+      "weighted_population": 225152.35110577825,
+      "pct_of_region_business_activity": 78.4,
+      "respondent_count": 146
+    },
+    {
+      "region": "Tabora",
+      "activity": "Service providers",
+      "weighted_population": 24402.589479889175,
+      "pct_of_region_business_activity": 8.5,
+      "respondent_count": 10
+    },
+    {
+      "region": "Tabora",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 18980.786218306905,
+      "pct_of_region_business_activity": 6.61,
+      "respondent_count": 12
+    },
+    {
+      "region": "Tabora",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 18659.248872221444,
+      "pct_of_region_business_activity": 6.5,
+      "respondent_count": 15
+    },
+    {
+      "region": "Tanga",
+      "activity": "Farmers and fishers",
+      "weighted_population": 270566.13239901944,
+      "pct_of_region_business_activity": 74.27,
+      "respondent_count": 217
+    },
+    {
+      "region": "Tanga",
+      "activity": "Service providers",
+      "weighted_population": 46197.40028046309,
+      "pct_of_region_business_activity": 12.68,
+      "respondent_count": 30
+    },
+    {
+      "region": "Tanga",
+      "activity": "Traders - agricultural products",
+      "weighted_population": 8255.234502276766,
+      "pct_of_region_business_activity": 2.27,
+      "respondent_count": 6
+    },
+    {
+      "region": "Tanga",
+      "activity": "Traders - non-agricultural",
+      "weighted_population": 39285.24417436658,
+      "pct_of_region_business_activity": 10.78,
+      "respondent_count": 26
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+═════════════════════════════════════════════════════════════════
+  FINSCOPE TANZANIA 2023 — ANALYSIS REPORT
+  Tanzania Policy Design Agent
+  Generated: 2026-07-22 20:39:13
+═════════════════════════════════════════════════════════════════
+
+ACKNOWLEDGEMENT
+────────────────────────────────────────
+The findings in this report are based on data collected by FinScope Tanzania 2023. The findings, interpretations, and conclusions expressed in this report are entirely those of the authors and do not necessarily represent the views of FinScope Tanzania 2023.
+
+METHODOLOGY
+────────────────────────────────────────
+  Sample:    9,915 interviews
+  Represents:34,134,251 adults
+  Coverage:  Adults 16+ in Tanzania
+
+COMPLIANCE FUNNEL (weighted population estimates)
+────────────────────────────────────────
+  Total adults 16+:      34,134,251
+  Has income source:     34,134,251  (100.0%)
+  Uses mobile money:     24,445,601  (71.6%)
+  Has National ID:       17,978,049  (52.7%)
+  Has TIN:                1,306,683  (3.8%)
+  MM without TIN:        23,140,012  ← PRIMARY INTERVENTION TARGET
+  Compliance gap:        32,827,568
+
+BUSINESS REGISTRATION
+────────────────────────────────────────
+  Business owners:        4,343,781
+  Registered:               652,846  (15.0%)
+  Unregistered:           3,690,934
+
+BY LIFECYCLE STAGE
+────────────────────────────────────────
+  ENTRY
+    Population:     10,605,005
+    Has TIN:            81,605  (0.8%)
+    Uses MM:         6,386,359  (60.2%)
+    MM no TIN:       6,304,754  ← intervention target
+    Dropout rate:   99.2%
+    Urban:          38.9%
+
+  ACTIVE
+    Population:     12,110,885
+    Has TIN:           559,050  (4.6%)
+    Uses MM:         9,408,001  (77.7%)
+    MM no TIN:       8,848,950  ← intervention target
+    Dropout rate:   95.4%
+    Urban:          33.6%
+
+  ENTERPRISE
+    Population:      3,488,899
+    Has TIN:           339,746  (9.7%)
+    Uses MM:         3,200,397  (91.7%)
+    MM no TIN:       2,860,651  ← intervention target
+    Dropout rate:   90.3%
+    Urban:          57.9%
+
+  ASSET
+    Population:      5,590,836
+    Has TIN:           240,629  (4.3%)
+    Uses MM:         4,240,166  (75.8%)
+    MM no TIN:       4,000,631  ← intervention target
+    Dropout rate:   95.7%
+    Urban:          33.5%
+
+  LEGACY
+    Population:      2,338,624
+    Has TIN:            85,651  (3.7%)
+    Uses MM:         1,210,675  (51.8%)
+    MM no TIN:       1,125,023  ← intervention target
+    Dropout rate:   96.3%
+    Urban:          28.4%
+
+REGISTRATION BARRIERS
+────────────────────────────────────────
+  Business too small                   62.5%  ███████████████
+  No money / too expensive              7.9%  █
+  No benefit seen                       7.4%  █
+  Registration processing               6.1%  █
+  Don't know how                        4.5%  █
+  Too complicated                       1.4%  
+  No time                               0.8%  
+  Other reason                          0.4%  
+  Don't want to pay taxes               0.2%  
+  Tried but failed                      0.1%  
+
+KEY INTERVENTION TARGETS
+────────────────────────────────────────
+  mm_users_without_tin:
+    Count:       23,140,012
+    Description: Mobile money users without a TIN. Reachable via USSD. Highest-leverage Entry Stage target.
+
+  unregistered_business_owners:
+    Count:       3,690,934
+    Description: Business owners without formal registration. SME simplification target.
+
+  entry_stage_mm_no_tin:
+    Count:       6,304,754
+    Description: Entry stage (16-25) mobile money users without TIN. The Juma cohort.
+
+═════════════════════════════════════════════════════════════════
+  Next step: python shared_context.py
+  (loads finscope_summary.json into pipeline)
+═════════════════════════════════════════════════════════════════
