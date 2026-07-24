@@ -15,6 +15,11 @@ Streamlit multipage app it was built for:
                     Active stage. finscope_adapter is the only adapter
                     today; a future TRA-collections or BRELA adapter
                     plugs in beside it without changing the page.
+  demo_identity.py  Shared demo-safety rules for every screen that asks
+                    for a NIDA/phone number (Entry's ENgazi Registration,
+                    Seed's optional closing step) -- visible warning
+                    banner, format-only validation, no persistence
+                    beyond st.session_state.
 
 Import from the submodules directly (`from tdj_lib.styling import ...`)
 or from here for the common subset used on every page.
@@ -28,6 +33,7 @@ from .styling import (
 from .stages import STAGES, stage_header, stage_nav_footer
 from .pipeline_data import PipelineData, Figure
 from .benchmark_adapters import BenchmarkResult, finscope_adapter
+from .demo_identity import DEMO_SAFETY_NOTICE, demo_safety_banner, looks_like_nida, looks_like_phone
 
 __all__ = [
     "NAVY", "GOLD", "SLATE", "CREAM", "GRAY", "WHITE",
@@ -36,4 +42,5 @@ __all__ = [
     "STAGES", "stage_header", "stage_nav_footer",
     "PipelineData", "Figure",
     "BenchmarkResult", "finscope_adapter",
+    "DEMO_SAFETY_NOTICE", "demo_safety_banner", "looks_like_nida", "looks_like_phone",
 ]

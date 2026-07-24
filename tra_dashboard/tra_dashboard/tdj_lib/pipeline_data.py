@@ -70,6 +70,7 @@ class PipelineData:
         self._register = _load_json(pipeline_dir, "intervention_register.json")
         self._region_activity = _load_json(pipeline_dir, "finscope_region_activity.json")
         self._active_benchmark = _load_json(pipeline_dir, "finscope_active_benchmark.json")
+        self._targeting_population = _load_json(pipeline_dir, "finscope_targeting_population.json")
 
     @property
     def connected(self) -> bool:
@@ -252,3 +253,18 @@ class PipelineData:
             value=None, available=False,
             note=f"no benchmark cell for {activity!r} in {region!r}",
         )
+
+    def targeting_population(self) -> Figure:
+        """The Entry-stage Targeting Priority Tool's scored population --
+        a real, index-aligned 5,000-person sample (probabilities +
+        urban/business_owner/has_mobile_money/stage) from the exact same
+        50,000-person model and population already backing
+        economic_model.json's ml_segmentation aggregates -- see
+        pipeline/finscope_targeting_population_loader.py for exactly how
+        it's reproduced and verified against that committed model."""
+        if not self._targeting_population:
+            return Figure(
+                value=None, available=False,
+                note="finscope_targeting_population.json not found in pipeline directory",
+            )
+        return Figure(value=self._targeting_population, available=True)

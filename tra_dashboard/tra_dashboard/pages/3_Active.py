@@ -30,6 +30,20 @@ inject_hero_style(_b64_file(_TEXTURE_PATH) if os.path.exists(_TEXTURE_PATH) else
 pipeline = PipelineData()
 
 # ---------------------------------------------------------------------------
+# Part C: acknowledge an ENgazi Registration handoff from Entry, if present.
+# Strictly additive -- nothing below this block changes for a session with
+# no incoming flag, and this block touches nothing else on the page (not
+# the calculator, the adapter, or the evidence-tier logic).
+# ---------------------------------------------------------------------------
+if st.session_state.get("engazi_business_registered"):
+    st.markdown(
+        '<div class="tdj-note-card"><div class="tdj-note-label">Welcome</div>'
+        "<p>You're already in TRA's records as an active taxpayer via ENgazi "
+        "Registration. Here's your shared benchmarking reference point.</p></div>",
+        unsafe_allow_html=True,
+    )
+
+# ---------------------------------------------------------------------------
 # About this pilot -- same treatment as Seed's "Why this exists" expander
 # ---------------------------------------------------------------------------
 with st.expander("Why Mzani wa Kodi exists"):

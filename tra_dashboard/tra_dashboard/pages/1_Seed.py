@@ -4,7 +4,10 @@ import os
 import plotly.graph_objects as go
 import streamlit as st
 
-from common import inject_base_style, stage_header, callout, evidence_tag, stage_nav_footer
+from common import (
+    inject_base_style, stage_header, callout, evidence_tag, stage_nav_footer,
+    demo_safety_banner, looks_like_nida,
+)
 
 st.set_page_config(page_title="Seed — Madarasa Ya Kodi", page_icon="🌱", layout="wide")
 inject_base_style()
@@ -477,6 +480,36 @@ with play_tab:
         if st.button("↺ Play again"):
             _reset_game()
             st.rerun()
+
+        st.divider()
+        st.markdown("#### Continue your journey")
+        st.write(
+            "A real person your age would eventually register with TRA as an "
+            "adult. Confirm you're ready to continue, and Entry will already "
+            "have your NIDA number waiting — no need to enter it twice. "
+            "Completely optional — stopping above is a complete ending too."
+        )
+        demo_safety_banner()
+        handoff_nida = st.text_input(
+            "NIDA number (optional)", key="seed_handoff_nida_field",
+            help="20 digits — format checked only, not verified against NIDA.",
+        )
+        if handoff_nida:
+            st.caption(
+                "✓ Format accepted (not verified)" if looks_like_nida(handoff_nida)
+                else "Doesn't look like a 20-digit NIDA number yet."
+            )
+        if st.button("Confirm I'm ready to continue", key="seed_handoff_submit"):
+            if looks_like_nida(handoff_nida):
+                st.session_state.seed_handoff_complete = True
+                st.session_state.seed_handoff_nida = handoff_nida
+            else:
+                st.warning(
+                    "Enter a 20-digit NIDA number to continue, or just leave this "
+                    "blank — stopping here is a complete ending too."
+                )
+        if st.session_state.get("seed_handoff_complete"):
+            st.page_link("pages/2_Entry.py", label="Continue to Entry →", icon="🚪")
 
 # ============================================================ TRA TAB ======
 with tra_tab:

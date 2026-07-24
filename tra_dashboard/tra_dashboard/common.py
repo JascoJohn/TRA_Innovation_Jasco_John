@@ -13,6 +13,7 @@ from tdj_lib import (
     STAGES, stage_header, stage_nav_footer,
     PipelineData, Figure,
     BenchmarkResult, finscope_adapter,
+    DEMO_SAFETY_NOTICE, demo_safety_banner, looks_like_nida, looks_like_phone,
 )
 
 __all__ = [
@@ -22,4 +23,5 @@ __all__ = [
     "STAGES", "stage_header", "stage_nav_footer",
     "PipelineData", "Figure",
     "BenchmarkResult", "finscope_adapter",
+    "DEMO_SAFETY_NOTICE", "demo_safety_banner", "looks_like_nida", "looks_like_phone",
 ]
