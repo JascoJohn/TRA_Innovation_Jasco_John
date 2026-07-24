@@ -282,6 +282,24 @@ else:
         )
         st.caption(result.note)
 
+        # -------------------------------------------------------------------
+        # Part B (Enterprise build): a small, secondary, optional link onward.
+        # Strictly additive -- placed only after the benchmark result renders,
+        # never in place of it, and touches nothing above (the calculator,
+        # the adapter, or the evidence-tier logic are all unchanged).
+        # -------------------------------------------------------------------
+        st.write("")
+        already_active = bool(st.session_state.get("engazi_business_registered"))
+        st.markdown(
+            '<div class="tdj-card" style="font-size:0.92rem;">'
+            + ("You're already registered as an active taxpayer via ENgazi "
+               "Registration — " if already_active else "")
+            + "Already filing and building compliance? See where you stand on "
+              "Ngazi.</div>",
+            unsafe_allow_html=True,
+        )
+        st.page_link("pages/4_Enterprise.py", label="See my Ngazi progression →", icon="📈")
+
 st.divider()
 
 # ---------------------------------------------------------------------------
