@@ -20,6 +20,11 @@ Streamlit multipage app it was built for:
                     Seed's optional closing step) -- visible warning
                     banner, format-only validation, no persistence
                     beyond st.session_state.
+  documents.py      PDF rendering for Asset's two downloadable artifacts
+                    (Verification Report, Digital Asset Profile). Pure
+                    layout -- score computation stays in pages/5_Asset.py,
+                    this module only draws whatever component list it's
+                    given. BytesIO only, no disk writes.
 
 Import from the submodules directly (`from tdj_lib.styling import ...`)
 or from here for the common subset used on every page.
@@ -34,6 +39,7 @@ from .stages import STAGES, stage_header, stage_nav_footer
 from .pipeline_data import PipelineData, Figure
 from .benchmark_adapters import BenchmarkResult, finscope_adapter
 from .demo_identity import DEMO_SAFETY_NOTICE, demo_safety_banner, looks_like_nida, looks_like_phone
+from .documents import build_asset_verification_report, build_digital_asset_profile
 
 __all__ = [
     "NAVY", "GOLD", "SLATE", "CREAM", "GRAY", "WHITE",
@@ -43,4 +49,5 @@ __all__ = [
     "PipelineData", "Figure",
     "BenchmarkResult", "finscope_adapter",
     "DEMO_SAFETY_NOTICE", "demo_safety_banner", "looks_like_nida", "looks_like_phone",
+    "build_asset_verification_report", "build_digital_asset_profile",
 ]

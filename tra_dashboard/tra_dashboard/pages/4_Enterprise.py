@@ -248,6 +248,22 @@ st.caption(
     "its own. That pairing is the design's whole bet, per the Malawi finding above."
 )
 
+# ---------------------------------------------------------------------------
+# Part B (Asset build): additive graduation card. Only renders when the
+# taxpayer has actually reached the top of the ladder this session --
+# nothing here alters the ladder, the questions, or any other verified
+# behavior for sessions that don't reach it.
+# ---------------------------------------------------------------------------
+if reached_established:
+    st.write("")
+    st.markdown(
+        '<div class="tdj-note-card"><div class="tdj-note-label">You\'ve graduated</div>'
+        "<p>Established Taxpayer Status triggers automatic Ngazi Enterprise Graduation — "
+        "see your <b>Verified Economic Identity</b>, built on this progression.</p></div>",
+        unsafe_allow_html=True,
+    )
+    st.page_link("pages/5_Asset.py", label="See your Verified Economic Identity →", icon="🏠")
+
 st.divider()
 
 # ===========================================================================
