@@ -1,9 +1,11 @@
-"""PDF generation for the Asset stage's two downloadable artifacts.
+"""PDF generation for this project's three downloadable artifacts: Asset's
+Verification Report and Digital Asset Profile, and Legacy's Kodi Legacy
+Certificate.
 
-Pure rendering only -- neither function computes anything about a
-score. Both take an already-assembled list of component dicts (built
-by pages/5_Asset.py from its own session-state inputs) and lay them
-out as PDF bytes in memory via reportlab, returned straight to
+Pure rendering only -- none of these functions compute anything about a
+score. Each takes an already-assembled list of component dicts (built
+by the calling page from its own session-state inputs) and lays it out
+as PDF bytes in memory via reportlab, returned straight to
 st.download_button. No temp files, no disk writes -- BytesIO only, so
 this works identically under Streamlit Cloud's ephemeral filesystem as
 it does locally.
@@ -33,6 +35,10 @@ INK = colors.HexColor("#222222")
 MUTED = colors.HexColor("#666666")
 
 DEMO_MARK = "PILOT DEMONSTRATION — ILLUSTRATIVE DATA, NOT VERIFIED TRA RECORDS"
+CERTIFICATE_DEMO_MARK = (
+    "PILOT DEMONSTRATION — ILLUSTRATIVE DOCUMENT, NOT A LEGALLY BINDING "
+    "CERTIFICATE OR VERIFIED TRA RECORD"
+)
 
 _styles = {
     "title": ParagraphStyle("title", fontName="Times-Bold", fontSize=20, leading=26, textColor=GREEN_DARK, spaceAfter=6),
@@ -48,9 +54,9 @@ _styles = {
 }
 
 
-def _demo_banner():
+def _demo_banner(text: str = DEMO_MARK):
     return Table(
-        [[Paragraph(f"⚠ {DEMO_MARK}", _styles["demo"])]],
+        [[Paragraph(f"⚠ {text}", _styles["demo"])]],
         colWidths=[170 * mm],
         style=TableStyle([
             ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#FDF3E7")),
@@ -206,6 +212,110 @@ def build_digital_asset_profile(person_name: str, total_score: int, max_score: i
     ))
     story.append(Spacer(1, 8))
     story.append(_demo_banner())
+
+    doc.build(story)
+    return buf.getvalue()
+
+
+def build_legacy_certificate(person_name: str, components: list, total_score: int,
+                               max_score: int, succession: dict = None,
+                               generated_at: datetime = None) -> bytes:
+    """Kodi Legacy Certificate -- reuses this module's shared styles and
+    _demo_banner() rather than a parallel document approach. Framed as
+    continuity/stewardship documentation, not a transfer instrument: the
+    "digitally signed" mark is explicitly labeled illustrative, and the
+    certificate carries the stronger, certificate-specific demo mark
+    (CERTIFICATE_DEMO_MARK) rather than the generic one, since this is the
+    one artifact in the project most easily mistaken for something with
+    legal effect once it's out of the app's own context.
+
+    components: same shape as build_asset_verification_report's.
+    succession: optional dict with keys scenario ("sustained"/"lapsed"),
+    successor_score, live_score_at_month, month -- omitted entirely from
+    the certificate if no succession was simulated this session, rather
+    than showing a fabricated default.
+    """
+    generated_at = generated_at or datetime.now()
+    buf = BytesIO()
+    doc = SimpleDocTemplate(
+        buf, pagesize=A4,
+        topMargin=18 * mm, bottomMargin=16 * mm, leftMargin=20 * mm, rightMargin=20 * mm,
+    )
+    story = []
+
+    story.append(Paragraph("Kodi Legacy Certificate", _styles["title"]))
+    story.append(Paragraph("Verified Compliance Continuity — TRA Innovation Pilot", _styles["subtitle"]))
+    story.append(_demo_banner(CERTIFICATE_DEMO_MARK))
+    story.append(Spacer(1, 10))
+    story.append(Paragraph(
+        f"<b>Taxpayer:</b> {person_name or 'Demo taxpayer'} (placeholder identifier)<br/>"
+        f"<b>Issued:</b> {generated_at.strftime('%d %B %Y, %H:%M')}<br/>"
+        f"<b>Kodi Legacy Score:</b> {total_score} / {max_score}",
+        _styles["body"],
+    ))
+
+    story.append(Paragraph("This certificate preserves — it does not transfer", _styles["h2"]))
+    story.append(Paragraph(
+        "This document records a verified compliance history for continuity and "
+        "stewardship purposes. It does not transfer any legal tax obligation, and "
+        "reaching an approved successor does not hand over this score for free — "
+        "see Succession Status below for how inherited standing is treated as "
+        "provenance, not entitlement.",
+        _styles["body"],
+    ))
+
+    story.append(Paragraph("Component Breakdown", _styles["h2"]))
+    table_data = [["Component", "Status", "Evidence", "Points"]]
+    for c in components:
+        table_data.append([
+            Paragraph(c["name"], _styles["body"]),
+            Paragraph(c["status"], _styles["body"]),
+            Paragraph("Real (computed)" if c["tier"] == "real" else "Illustrative (self-reported)", _styles["small"]),
+            Paragraph(f"{c['points']} / {c['max_points']}", _styles["body"]),
+        ])
+    t = Table(table_data, colWidths=[45 * mm, 62 * mm, 40 * mm, 23 * mm])
+    t.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), GREEN),
+        ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
+        ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+        ("FONTSIZE", (0, 0), (-1, 0), 9),
+        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, TINT_LIGHT]),
+        ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#CCCCCC")),
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("TOPPADDING", (0, 0), (-1, -1), 5), ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
+        ("LEFTPADDING", (0, 0), (-1, -1), 6), ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+    ]))
+    story.append(t)
+
+    story.append(Paragraph("Succession Status", _styles["h2"]))
+    if succession:
+        scenario_label = "sustains strong compliance" if succession["scenario"] == "sustained" else "lets compliance lapse"
+        story.append(Paragraph(
+            f"A hypothetical successor scenario was simulated this session: successor "
+            f"{scenario_label}, illustrative own-record score {succession['successor_score']} / 100. "
+            f"At month {succession['month']} of the 3-year transition window, the live "
+            f"eligibility score is {succession['live_score_at_month']} / {max_score} — blending "
+            "monthly from this certificate's inherited score toward the successor's own "
+            "record, fully replaced by month 36. The inherited score above remains a "
+            "historical reference only; it is not the successor's live standing.",
+            _styles["body"],
+        ))
+    else:
+        story.append(Paragraph(
+            "No succession was simulated this session. This certificate reflects the "
+            "current taxpayer's own record only.",
+            _styles["body"],
+        ))
+
+    story.append(Spacer(1, 16))
+    story.append(HRFlowable(width="100%", color=colors.HexColor("#CCCCCC")))
+    story.append(Spacer(1, 8))
+    story.append(Paragraph(
+        "✒ Digitally signed — illustrative mark only, not a cryptographic or legal signature.",
+        ParagraphStyle("sig", fontName="Times-Italic", fontSize=10, textColor=GREEN_DARK),
+    ))
+    story.append(Spacer(1, 10))
+    story.append(_demo_banner(CERTIFICATE_DEMO_MARK))
 
     doc.build(story)
     return buf.getvalue()

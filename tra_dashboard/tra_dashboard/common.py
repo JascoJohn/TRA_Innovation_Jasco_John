@@ -14,7 +14,7 @@ from tdj_lib import (
     PipelineData, Figure,
     BenchmarkResult, finscope_adapter,
     DEMO_SAFETY_NOTICE, demo_safety_banner, looks_like_nida, looks_like_phone,
-    build_asset_verification_report, build_digital_asset_profile,
+    build_asset_verification_report, build_digital_asset_profile, build_legacy_certificate,
 )
 
 __all__ = [
@@ -25,5 +25,5 @@ __all__ = [
     "PipelineData", "Figure",
     "BenchmarkResult", "finscope_adapter",
     "DEMO_SAFETY_NOTICE", "demo_safety_banner", "looks_like_nida", "looks_like_phone",
-    "build_asset_verification_report", "build_digital_asset_profile",
+    "build_asset_verification_report", "build_digital_asset_profile", "build_legacy_certificate",
 ]

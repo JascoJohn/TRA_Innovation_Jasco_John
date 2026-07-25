@@ -450,6 +450,14 @@ with play_tab:
 
     # ---- CLOSING -----------------------------------------------------------
     elif screen == "closing":
+        # Part C (Legacy build): a minimal, additive completion signal for the
+        # journey recap -- reaching this screen always means all 3 missions
+        # were completed, regardless of whether the optional NIDA step below
+        # is used. Distinct from seed_handoff_complete, which is conditional
+        # on that NIDA step and means something narrower (ready to continue
+        # to Entry with data to carry forward).
+        st.session_state.seed_journey_completed = True
+
         st.markdown(
             f"""
             <div class="seed-hero"><div class="seed-hero-inner">

@@ -181,6 +181,11 @@ else:
         )
 
     else:
+        # Part C (Legacy build): a minimal, additive completion signal for the
+        # journey recap -- set only when a real (non-refused) benchmark
+        # result is shown, distinct from just visiting this page.
+        st.session_state.active_benchmark_completed = True
+
         # ---- The real comparison ------------------------------------------
         headline = (
             f"Businesses like yours in {region}" if viewer == "taxpayer"

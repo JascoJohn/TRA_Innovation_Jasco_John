@@ -383,12 +383,9 @@ with dl2:
 st.divider()
 
 # ---------------------------------------------------------------------------
-# Forward-compatibility flag for a future Legacy-stage build. Nothing in
-# this project reads this yet -- Legacy is not built. The document states
-# Asset Score is a literal, computed input into the Kodi Legacy Score
-# (alongside filing consistency and TIN longevity), so this summarizes
-# exactly what a Legacy build would need, without building anything to
-# consume it now.
+# Forward-compatibility flag, now consumed by pages/6_Legacy.py -- the
+# document states Asset Score is a literal, computed input into the Kodi
+# Legacy Score (alongside filing consistency and TIN longevity).
 # ---------------------------------------------------------------------------
 st.session_state.asset_score_summary = {
     "total_score": total_score,
@@ -397,6 +394,21 @@ st.session_state.asset_score_summary = {
     "ngazi_standing_points": ngazi_points,
     "ngazi_standing_real": came_from_enterprise,
 }
+
+# ---------------------------------------------------------------------------
+# Part B (Legacy build): a small, additive card once a score exists (which
+# is always, on this page) pointing toward continuity/succession planning.
+# Placed only after the score and documents render -- touches nothing above.
+# ---------------------------------------------------------------------------
+st.markdown(
+    '<div class="tdj-card" style="font-size:0.92rem;">Ready to plan for the future? '
+    "See how your Verified Economic Identity contributes to lifetime "
+    "continuity.</div>",
+    unsafe_allow_html=True,
+)
+st.page_link("pages/6_Legacy.py", label="See my Kodi Legacy Score →", icon="🕊️")
+
+st.divider()
 
 callout(
     "STRATEGIC CONTRIBUTION",
